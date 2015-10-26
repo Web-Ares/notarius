@@ -19,13 +19,16 @@
 
 /* --------------- placeholder --------------- */
 ::-webkit-input-placeholder {
-    color: #000;
+    color: #605447;
+    font-size: 14px;
 }
 :-moz-placeholder {
-    color: #000;
+    color: #605447;
+    font-size: 14px;
 }
 .placeholder {
-    color: #000;
+    color: #605447;
+    font-size: 14px;
 }
 /* --------------- /placeholder --------------- */
 
@@ -49,8 +52,6 @@
 .site__content {
     position: relative;
     z-index: 2;
-    width: 783px;
-    margin: 0 auto;
 }
 
 .site__header {
@@ -103,6 +104,8 @@
     font-size: 14px;
     line-height: 18px;
     color: #432100;
+    width: 768px;
+    margin: 0 auto;
 }
 .site__content-wrap  a{
     color:  #432100;
@@ -139,11 +142,24 @@
     font-family: 'Georgia', sans-serif;
     color: #432100;
 }
+.site__content-wrap h4{
+    font-size: 18px;
+    font-family: 'Georgia', sans-serif;
+    color: #432100;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
 .site__content-wrap h3{
     font-size: 18px;
     color: #432100;
     font-family: 'PT Sans', sans-serif;
     margin-bottom: 10px;
+}
+.site__content-wrap h5{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 12px;
 }
 
 .site__content-wrap ol{
@@ -182,7 +198,7 @@
 
 }
 .site__content-wrap ul li:before{
-    content: " ";
+    content: "- ";
 }
 .site__content-wrap table{
     margin: 10px 0 20px;
@@ -222,7 +238,24 @@
 .site__content-wrap table tr:last-child{
     border-bottom: 1px solid #605447;
 }
-
+.site__content-wrap .form-title_contact{
+    color: #432100;
+    width: 183px;
+    display: inline-block;
+    font-family: 'Georgia', sans-serif;
+    margin-right: 0;
+    padding-top: 3px;
+    line-height: 27px;
+    margin-left: 16px;
+}
+.site__content-wrap .contact{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.site__content-wrap .contact-phone{
+    width: 226px;
+}
 table{
     font-family: 'PT Sans', sans-serif;
 }
@@ -304,7 +337,7 @@ width: 770px;
 }
 .reviews__admin{
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 11px;
 }
 .reviews__admin-img{
     position: relative;
@@ -322,6 +355,9 @@ width: 770px;
     background-color: #ede9e0;
     padding-top: 13px;
     padding-bottom: 13px;
+}
+.reviews__leave-about{
+    height: 85px;
 }
 .textbox{
     height:62px;
@@ -386,6 +422,10 @@ input[type="name"]{
 .button:hover{
     background:rgba(0,0,0,.3);
 }
+.button_ok{
+    width: 64px;
+    height: 64px;
+}
 .form-title{
     width: 220px;
     height:62px;
@@ -393,6 +433,7 @@ input[type="name"]{
     margin-left: 18px;
     margin-right: 24px;
 }
+
 /* --------------- /reviews --------------- */
 
 /* --------------- logo --------------- */
