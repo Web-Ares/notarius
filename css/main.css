@@ -278,8 +278,107 @@
     width: 450px;
     height: 300px;
 }
-
 /* --------------- /news --------------- */
+
+/* --------------- reviews --------------- */
+.reviews{
+width: 770px;
+}
+.reviews__user{
+    background-color: #ede9e0;
+}
+.reviews__admin{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.reviews__admin-img{
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 56px;
+    top: 10px;
+}
+.reviews__admin-content{
+    display: inline-block;
+    width: 693px;
+}
+.reviews__leave-feedback{
+    width: 100%;
+    background-color: #ede9e0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.textbox{
+    height:62px;
+    width:210px;
+    border-radius:3px;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    padding:10px;
+    background:#f6f4ef;
+    margin-left: 15px;
+    border: none;
+}
+.email_textbox{
+    width:303px;
+ }
+.message{
+    background:#f6f4ef;
+    width:737px;
+    height: 200px;
+    border: #f6f4ef;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display:block;
+    padding:10px;
+    overflow:hidden;
+    margin: 13px auto;
+}
+input[type="email"]{
+    font-size:14px;
+    padding: 7px;
+}
+input[type="name"]{
+    font-size:14px;
+    padding: 7px;
+}
+.message:focus,
+.textbox:focus{
+    outline:none;
+}
+.button{
+    display: block;
+    height:58px;
+    width:62px;
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 0px solid;
+    box-sizing:border-box;
+    padding:10px;
+    background:#877d73;
+    color:#FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 24px;
+    transition:background .4s;
+    cursor:pointer;
+    margin: 0 auto;
+}
+.button:hover{
+    background:rgba(0,0,0,.3);
+}
+.form-title{
+    width: 220px;
+    height:62px;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-right: 24px;
+}
+/* --------------- /reviews --------------- */
 
 /* --------------- logo --------------- */
 .logo {
