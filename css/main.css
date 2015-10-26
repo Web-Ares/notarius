@@ -82,6 +82,40 @@
 }
 /* --------------- /site --------------- */
 
+/* --------------- news__list --------------- */
+.news__list__container{
+    width: 770px;
+    margin-bottom: 28px;
+}
+.content-time{
+    display: block;
+    color:#8b4d11;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.content-title{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.news__list__container-img{
+    display: inline-block;
+    width: 175px;
+    height: 117px;
+    vertical-align: top;
+}
+.news__list__container__content{
+    display: inline-block;
+    width: 570px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.content_without-photo{
+    width: 100%;
+    margin-left: 0px;
+}
+
+/* --------------- /news__list --------------- */
+
 /* --------------- logo --------------- */
 .logo {
     position: absolute;
