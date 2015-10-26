@@ -251,6 +251,10 @@ table caption{
     display: inline-block;
     width: 150px;
 }
+.head-info li a,
+.head-info li span{
+    display: block;
+}
 /* -------------- /head-info --------------- */
 
 /* --------------- news__list --------------- */
