@@ -62,8 +62,10 @@
 .site__header {
     position: relative;
     height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 14px;
     z-index: 3;
-
 }
 .site__footer {
     z-index: 2;
@@ -74,11 +76,24 @@
     height: 142px;
 }
 .site__footer-layout {
-    width: 100%;
+    width: 1000px;
     height: 142px;
+    margin: 0 auto;
     background: #e7e2d6;
 }
 /* --------------- /site --------------- */
+
+/* --------------- head-info --------------- */
+.head-info{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+.head-info li{
+    display: inline-block;
+    width: 150px;
+}
+/* -------------- /head-info --------------- */
 
 /* --------------- news__list --------------- */
 .news__list__container{
@@ -125,8 +140,6 @@
 
 /* --------------- logo --------------- */
 .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-left: 19px;
 }
 /* --------------- /logo --------------- */
