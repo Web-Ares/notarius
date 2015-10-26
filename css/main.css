@@ -145,6 +145,20 @@
     font-family: 'PT Sans', sans-serif;
     margin-bottom: 10px;
 }
+.site__content-wrap h4{
+    font-size: 18px;
+    font-family: 'Georgia', sans-serif;
+    color: #432100;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.site__content-wrap h5{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
 
 .site__content-wrap ol{
     counter-reset: li;
@@ -173,7 +187,8 @@
     margin-right: 7px;
 }
 .site__content-wrap strong,b{
-
+    margin-top: -4px;
+    display: block;
 }
 .site__content-wrap ul{
     padding-left: 26px;
@@ -182,7 +197,7 @@
 
 }
 .site__content-wrap ul li:before{
-    content: " ";
+    content: "- ";
 }
 .site__content-wrap table{
     margin: 10px 0 20px;
