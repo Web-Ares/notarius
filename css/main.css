@@ -58,6 +58,120 @@
 .site__content {
     position: relative;
     z-index: 2;
+    width: 783px;
+    margin: 0 auto;
+}
+.site__content-wrap{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: #432100;
+}
+.site__content-wrap  a{
+    color:  #432100;
+    text-decoration: underline;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.site__content-wrap a:hover{
+    color: #f27800;
+}
+.site__content-wrap p{
+    letter-spacing: 0.2px;
+    margin-bottom: 16px;
+}
+.site__content-wrap span{
+    color: #fc7c00;
+}
+.site__content-wrap span.green{
+    color: #98ca3c;
+}
+.site__content-wrap h1{
+    font-size: 38px;
+    color: #f27800;
+    line-height: 24px;
+    font-weight: normal;
+    margin-bottom: 36px;
+    font-family: 'Georgia', sans-serif;
+}
+.site__content-wrap h2{
+    font-size: 24px;
+    margin-bottom: 11px;
+    font-weight: normal;
+    line-height: 24px;
+    font-family: 'Georgia', sans-serif;
+    color: #432100;
+}
+.site__content-wrap h3{
+    font-size: 18px;
+    color: #432100;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.site__content-wrap ol{
+    counter-reset: li;
+    list-style: none;
+    margin-top: -10px;
+    margin-bottom: 22px;
+}
+.site__content-wrap ol>li{
+    position: relative;
+    padding-left: 14px;
+    line-height: 25px;
+    margin-top: 2px;
+}
+.site__content-wrap ol>li li{
+    line-height: 17px;
+}
+.site__content-wrap ol>li ol{
+    margin-top: -4px;
+    margin-bottom: 10px;
+}
+.site__content-wrap ol li:before{
+    counter-increment: li;
+    content: counters(li,".") ". ";
+}
+.site__content-wrap ol li li:before{
+    margin-right: 7px;
+}
+.site__content-wrap strong,b{
+
+}
+.site__content-wrap ul{
+    padding-left: 26px;
+}
+.site__content-wrap ul li{
+
+}
+.site__content-wrap ul li:before{
+    content: " ";
+}
+.site__content-wrap table{
+    margin: 10px 0 20px;
+}
+.site__content-wrap table th,
+.site__content-wrap table td{
+    width: 320px;
+    padding: 10px 15px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.site__content-wrap table th{
+    background-color: #9bb2c8;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+}
+.site__content-wrap table td{
+    line-height: 20px;
+}
+.site__content-wrap table td:first-child{
+    background-color: #98ca3c;
+    font-weight: 600;
+    color: #fff;
 }
 .site__header {
     position: relative;
@@ -79,6 +193,12 @@
     background: #e7e2d6;
 }
 /* --------------- /site --------------- */
+/* --------------- bread-crumbs --------------- */
+.bread-crumbs{
+    margin: 38px 0px;
+    margin-bottom: 33px;
+}
+/* --------------- /bread-crumbs --------------- */
 
 /* --------------- news__list --------------- */
 .news__list__container{
@@ -130,3 +250,9 @@
     left: 0;
 }
 /* --------------- /logo --------------- */
+/* --------------- client-list --------------- */
+.client-list{
+
+}
+/* --------------- /client-list --------------- */
+
