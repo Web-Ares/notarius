@@ -7,12 +7,20 @@
 </head>
 <body>
 
+<!--site__content-wrap-->
+<div class="site__content-wrap">
+
+    <!--bread-crumbs-->
+    <div class="bread-crumbs">
+        <a href="#">Главная</a> > <span>Отзывы</span>
+    </div>
+    <!--/bread-crumbs-->
+
+    <h1>Отзывы</h1>
 
          <!-- reviews -->
     <div class="reviews">
         <!-- /reviews -->
-
-        <h1>Отзывы</h1>
 
         <!-- reviews__user -->
         <div class="reviews__user">
@@ -29,8 +37,8 @@
 
             <!-- reviews__admin-content -->
             <div class="reviews__admin-content">
-                <p><strong>Сергей Александрович, помощник нотариуса Фатиховой Л. М.: </strong></p>
-                <p>Большое спасибо Вам, Алексей Степанович, за оказанное доверие и благопрятный отзыв. Будем рады помочь Вам снова!</p>
+                <p><strong>Сергей Александрович, помощник нотариуса Фатиховой Л. М.: </strong>
+                Большое спасибо Вам, Алексей Степанович, за оказанное доверие и благопрятный отзыв. Будем рады помочь Вам снова!</p>
             </div>
             <!-- /reviews__admin-content -->
 
@@ -52,8 +60,8 @@
 
             <!-- reviews__admin-content -->
             <div class="reviews__admin-content">
-                <p><strong>Сергей Александрович, помощник нотариуса Фатиховой Л. М.: </strong></p>
-                <p>Большое спасибо Вам, Алексей Степанович, за оказанное доверие и благопрятный отзыв. Будем рады помочь Вам снова!</p>
+                <p><strong>Сергей Александрович, помощник нотариуса Фатиховой Л. М.: </strong>
+                Большое спасибо Вам, Алексей Степанович, за оказанное доверие и благопрятный отзыв. Будем рады помочь Вам снова!</p>
             </div>
             <!-- /reviews__admin-content -->
 
@@ -75,8 +83,8 @@
 
             <!-- reviews__admin-content -->
             <div class="reviews__admin-content">
-                <p><strong>Сергей Александрович, помощник нотариуса Фатиховой Л. М.: </strong></p>
-                <p>Большое спасибо Вам, Алексей Степанович, за оказанное доверие и благопрятный отзыв. Будем рады помочь Вам снова!</p>
+                <p><strong>Сергей Александрович, помощник нотариуса Фатиховой Л. М.: </strong>
+                Большое спасибо Вам, Алексей Степанович, за оказанное доверие и благопрятный отзыв. Будем рады помочь Вам снова!</p>
             </div>
             <!-- /reviews__admin-content -->
 
@@ -86,14 +94,25 @@
         <!-- reviews__leave-feedback -->
         <form class="reviews__leave-feedback">
             <span class="form-title">Оставить отзыв</span>
-            <input name="name" placeholder="Ваше имя" class="textbox" required />
-            <input name="emailaddress" placeholder="E-mail (виден только администрации сайта)" class="textbox email_textbox" type="email" required />
+
+            <div class="textbox">
+                <label for="name">Ваше имя</label>
+                <input id="name" placeholder="" class="input-textbox" required />
+             </div>
+
+            <div class="textbox email_textbox">
+                <label for="name">E-mail <span>(виден только администрации сайта)</span></label>
+                <input name="emailaddress" placeholder="" class="email_input-textbox" type="email" required />
+            </div>
+
             <textarea rows="4" cols="50" name="subject" placeholder="Текст отзыва" class="message" required></textarea>
             <input name="submit" class="button" type="submit" value="OK" />
         </form>
         <!-- /reviews__leave-feedback -->
 
     </div>
+</div>
+<!--/site__content-wrap-->
 
 </body>
 </html>
