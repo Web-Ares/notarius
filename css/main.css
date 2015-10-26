@@ -6,13 +6,21 @@
 
 /*
     main styles
-    version: 15.01.2013
+    version: 26.10.2015
 
     placeholder
 
     fonts
 
     site
+
+    news
+
+    news__list
+
+    reviews
+
+    contacts
 
     logo
 */
@@ -255,14 +263,16 @@ table caption{
 
 /* --------------- news__list --------------- */
 .news__list__container{
-    width: 770px;
-    margin-bottom: 28px;
+    font-family: "PT Sans Regular","sans-serif";
+    width: 774px;
+    margin-bottom: 17px;
 }
 .content-time{
     display: block;
-    color:#8b4d11;
+    color: #8b4d11;
     font-size: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
+    margin-top: -3px;
 }
 .content-title{
     display: block;
@@ -279,26 +289,33 @@ table caption{
     display: inline-block;
     width: 570px;
     vertical-align: top;
-    margin-left: 20px;
+    margin-left: 17px;
 }
 .content_without-photo{
     width: 100%;
     margin-left: 0px;
 }
-
-
+.news-title{
+    line-height: 39px !important;
+    margin-bottom: 10px !important;
+}
 /* --------------- /news__list --------------- */
 
 /* --------------- news --------------- */
 .news-img{
     float: right;
-    width: 450px;
+    width: 449px;
     height: 300px;
-    margin-left: 10px;
-    margin-bottom: 21px;
+    margin-left: 17px;
+    margin-bottom: 22px;
 }
 .news_time{
-    margin-bottom: 30px;
+    margin-bottom: 26px;
+}
+.news__list__container p{
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+    line-height: 17px;
 }
 /* --------------- /news --------------- */
 
@@ -355,9 +372,9 @@ table caption{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    padding: 4px 7px 7px 7px;
+    padding: 2px 7px 7px 7px;
     background: #f6f4ef;
-    margin-left: 20px;
+    margin-left: 26px;
     border: none;
     vertical-align: top;
 }
@@ -373,22 +390,21 @@ table caption{
     width: 100%;
     background: #f6f4ef;
     border: none;
-
 }
 .message{
-    background:#f6f4ef;
-    width:737px;
-    height: 200px;
+    background: #f6f4ef;
+    width: 741px;
+    height: 214px;
     border: #f6f4ef;
-    box-sizing:border-box;
+    box-sizing: border-box;
     -moz-border-radius: 3px;
-    font-size:14px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    display:block;
-    padding:10px;
-    overflow:hidden;
+    display: block;
+    padding: 4px 4px 4px 7px;
+    overflow: hidden;
     margin: 13px auto;
 }
 input[type="email"]{
@@ -405,7 +421,7 @@ input[type="name"]{
 }
 .button{
     display: block;
-    height:58px;
+    height:63px;
     width:62px;
     border-radius:3px;
     border:rgba(0,0,0,.3) 0px solid;
@@ -431,16 +447,20 @@ input[type="name"]{
     width: 220px;
     height: 62px;
     font-size: 24px;
-    margin-left: 18px;
+    margin-left: 15px;
     margin-right: -36px;
-    padding-top: 21px;
+    padding-top: 20px;
 }
 .reviews__admin-content strong{
     display: block;
 }
 /* --------------- /reviews --------------- */
+
+/* --------------- contacts --------------- */
 .contacts{
+    font-family: "PT Sans Regular","sans-serif";
     font-style:normal;
+    margin-bottom: 45px;
 }
 .contacts span{
     display: block;
@@ -458,10 +478,10 @@ input[type="name"]{
     font-size: 18px;
     margin-bottom: 0px;
 }
-
 .contacts div span{
     margin-bottom: -5px;
 }
+/* --------------- /contacts --------------- */
 
 /* --------------- logo --------------- */
 .logo {
