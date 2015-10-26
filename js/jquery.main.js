@@ -1,36 +1,14 @@
 $(function(){
-
+    $('.swiper-container').each(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 1,
+            autoplay: 5000,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            freeMode: true,
+            loop: true,
+            spaceBetween: 0
+        })
+    });
 } );
-
-var Shablon = function (obj) {
-    this.obj = obj;
-
-
-    this.init();
-};
-Shablon.prototype = {
-    init: function () {
-        var self = this;
-
-        self.core = self.core();
-        self.core.build();
-    },
-    core: function () {
-        var self = this;
-
-        return {
-            addEvents: function () {
-
-            },
-            build: function () {
-                self.core.addEvents();
-            }
-        };
-    }
-};
-
-$(window).on({
-    load: function () {
-        
-    }
-});
