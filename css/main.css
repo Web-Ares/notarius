@@ -201,6 +201,8 @@
 }
 .site__content-wrap ul li:before{
     content: "- ";
+    position: absolute;
+    left: 15px;
 }
 .site__content-wrap table{
     margin: 10px 0 20px;
@@ -355,6 +357,9 @@ width: 770px;
     background-color: #ede9e0;
     padding-top: 13px;
     padding-bottom: 13px;
+}
+.reviews-service{
+    margin-bottom: 41px;
 }
 .input-textbox{
     width: 100%;
