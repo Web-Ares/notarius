@@ -3,7 +3,19 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <script src="js/jquery.main.js"></script>
     <link rel="stylesheet" href="css/main.css" />
+    <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        var myMap;
+        ymaps.ready(init); // Ожидание загрузки API с сервера Яндекса
+        function init () {
+            myMap = new ymaps.Map("map", {
+                center: [55.76, 37.64], // Координаты центра карты
+                zoom: 10 // Zoom
+            });
+        }
+    </script>
 </head>
 <body>
     <!--site__content-wrap-->
@@ -29,7 +41,10 @@
             <strong>пн-пт: 9<sup>00</sup>–20<sup>00</sup></strong> без перерыва, <strong>сб, вс: выходной</strong></div>
         </address>
 
+        <div id="map" style="width: 770px; height: 371px"></div>
+
     </div>
     <!--/site__content-wrap-->
+
 </body>
 </html>
