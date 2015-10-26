@@ -19,13 +19,16 @@
 
 /* --------------- placeholder --------------- */
 ::-webkit-input-placeholder {
-    color: #000;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
 }
 :-moz-placeholder {
-    color: #000;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
 }
 .placeholder {
-    color: #000;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
 }
 /* --------------- /placeholder --------------- */
 
@@ -237,6 +240,10 @@
 .site__content-wrap table tr:last-child{
     border-bottom: 1px solid #605447;
 }
+.reviews-about{
+    height: 85px;
+}
+
 
 table{
     font-family: 'PT Sans', sans-serif;
@@ -373,6 +380,10 @@ width: 770px;
 .email_textbox{
     width:305px;
  }
+.email_contact {
+    width: 227px;
+    padding: 7px 5px;
+}
 .email_textbox span{
     font-style: italic;
     font-size: 13px;
@@ -382,6 +393,10 @@ width: 770px;
     background: #f6f4ef;
     border: none;
 
+}
+
+.contact{
+    display: inline-block;
 }
 .message{
     background:#f6f4ef;
@@ -403,9 +418,13 @@ input[type="email"]{
     font-size:14px;
     padding: 7px;
 }
+
 input[type="name"]{
     font-size:14px;
     padding: 7px;
+}
+input[type="tel"]{
+    line-height: 32px;
 }
 .message:focus,
 .textbox:focus{
@@ -428,6 +447,13 @@ input[type="name"]{
     cursor:pointer;
     margin: 0 auto;
 }
+.button_ok{
+    display: inline-block;
+    vertical-align: top;
+    width: 62px;
+    height: 62px;
+    margin-left: 16px;
+}
 .button:hover{
     background:rgba(0,0,0,.3);
 }
@@ -442,6 +468,11 @@ input[type="name"]{
     margin-left: 18px;
     margin-right: -36px;
     padding-top: 21px;
+}
+.about-title{
+    padding-top: 3px;
+    line-height: 26px;
+    width: 198px;
 }
 .reviews__admin-content strong{
     display: block;
