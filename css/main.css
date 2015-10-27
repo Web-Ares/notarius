@@ -57,7 +57,7 @@
 .site__header {
     position: relative;
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 33px;
     padding-top: 14px;
     z-index: 3;
 }
@@ -127,6 +127,7 @@
     font-size: 14px;
     line-height: 18px;
     color: #432100;
+    overflow: hidden;
 }
 .site__content-wrap  a{
     color:  #432100;
@@ -338,23 +339,57 @@ table caption{
 .head-menu{
     position: relative;
     height: 50px;
-    background-color: rgba(0,0,0,.7);
     z-index: 9;
+    background-color: #605447;
 }
-.head-menu > div{
+.head-menu_index{
+    background-color: rgba(0,0,0,.7);
+}
+.head-menu > ul{
     display: table;
     width: 100%;
 }
-.head-menu a{
+.head-menu li{
+    position: relative;
     display: table-cell;
     width: 20%;
     height: 50px;
-    border-left: 1px solid #fff;
-    color: #fff;
+    border-left: 1px solid #766a5f;
     text-align: center;
-    vertical-align: middle;
+}
+.head-menu_index li{
+    border-left-color: #fff;
+}
+.head-menu li a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    padding: 14px 10px 0;
+    font-size: 16px;
+    color: #fff;
     transition: background-color .3s ease;
     -webkit-transition: background-color .3s ease;
+}
+.head-menu a:first-child{
+    border-left: none;
+}
+.email_contact {
+    width: 227px;
+    padding: 7px 5px;
+}
+.contact{
+    display: inline-block;
+}
+input[type="tel"]{
+    line-height: 32px;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -5px;
 }
 .head-menu a:first-child{
     border-left: none;
@@ -362,7 +397,13 @@ table caption{
 .head-menu a:hover{
     background-color: rgba(255,255,255,.2);
 }
+.head-menu .active a{
+    top: -1px;
+    height: 52px;
+    background: url("../img/menu-active.jpg") no-repeat center/100% 100% #8b7158;
+}
 /* --------------- head-menu --------------- */
+
 
 /* --------------- services --------------- */
 .services{
@@ -395,7 +436,7 @@ table caption{
 
 /* --------------- bread-crumbs --------------- */
 .bread-crumbs{
-    margin: 38px 0px;
+    margin: 38px 0;
     margin-bottom: 33px;
 }
 /* --------------- /bread-crumbs --------------- */
@@ -502,7 +543,7 @@ table caption{
 }
 .content_without-photo{
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
 }
 .news-title{
     line-height: 39px !important;
@@ -633,7 +674,7 @@ input[type="name"]{
     height:63px;
     width:62px;
     border-radius:3px;
-    border:rgba(0,0,0,.3) 0px solid;
+    border:rgba(0,0,0,.3) 0 solid;
     box-sizing:border-box;
     padding:10px;
     background:#877d73;
