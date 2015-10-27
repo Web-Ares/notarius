@@ -38,7 +38,6 @@
             autoplay: 5000,
             nextButton: _next,
             prevButton: _prev,
-            freeMode: true,
             loop: true,
             spaceBetween: 0
         });
@@ -58,7 +57,7 @@
 
         //private methods
         var _addEvents = function () {
-                _obj.inputmask("+7(999) 999 - 99 - 99", ({ promptChar: "." }));
+                _obj.inputmask("+7 ( 999 ) 999 - 99 - 99", ({ promptChar: "." }));
             },
             _init = function () {
                 _addEvents();

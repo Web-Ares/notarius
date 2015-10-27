@@ -442,8 +442,8 @@ input[type="tel"]{
 }
 /* --------------- head-menu --------------- */
 
-/* --------------- services --------------- */
-.services{
+/* --------------- navigation-services --------------- */
+.navigation-services{
     float: left;
     width: 180px;
     margin-top: -9px;
@@ -451,7 +451,7 @@ input[type="tel"]{
     padding-left: 19px;
     font-size: 18px;
 }
-.services a{
+.navigation-services a{
     display: block;
     margin-left: 15px;
     margin-bottom: 7px;
@@ -461,15 +461,15 @@ input[type="tel"]{
     transition: opacity .3s ease;
     -webkit-transition: opacity .3s ease;
 }
-.services a:hover{
+.navigation-services a:hover{
     opacity: .5;
 }
-.services h2{
+.navigation-services h2{
     margin-bottom: 12px;
     font: normal 38px 'Georgia', serif;
     color: #8b4d11;
 }
-/* --------------- /services --------------- */
+/* --------------- /navigation-services --------------- */
 
 /* --------------- bread-crumbs --------------- */
 .bread-crumbs{
@@ -529,6 +529,9 @@ input[type="tel"]{
 }
 .service__img{
     margin-bottom: 2px;
+}
+.service__img img{
+    display: block;
 }
 .service__item a{
     text-decoration: none;
