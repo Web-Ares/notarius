@@ -290,7 +290,7 @@
     line-height: 16px;
 }
 .head-info .phone:hover{
-    opacity: 1;
+    text-shadow: none;
 }
 .head-info .phone strong{
     position: relative;
@@ -301,7 +301,6 @@
     right: 514px;
     font-size: 16px;
     font-style: normal;
-    background-image: url("../img/icons-place.png");
 }
 .head-info__address a{
     font-size: 14px;
@@ -310,6 +309,7 @@
 }
 .head-info .head-info__contacts{
     right: 252px;
+    background-image: url("../img/icons-phone.png");
 }
 .head-info .head-info__callback{
     margin-top: 10px;
@@ -339,29 +339,51 @@
 .head-menu{
     position: relative;
     height: 50px;
-    background-color: rgba(0,0,0,.7);
     z-index: 9;
+    background-color: #605447;
 }
-.head-menu > div{
+.head-menu_index{
+    background-color: rgba(0,0,0,.7);
+}
+.head-menu > ul{
     display: table;
     width: 100%;
 }
-.head-menu a{
+.head-menu li{
+    position: relative;
     display: table-cell;
     width: 20%;
     height: 50px;
-    border-left: 1px solid #fff;
-    color: #fff;
+    border-left: 1px solid #766a5f;
     text-align: center;
-    vertical-align: middle;
+}
+.head-menu_index li{
+    border-left-color: #fff;
+}
+.head-menu li a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    padding: 14px 10px 0;
+    font-size: 16px;
+    color: #fff;
     transition: background-color .3s ease;
     -webkit-transition: background-color .3s ease;
 }
-.head-menu a:first-child{
+.head-menu li:first-child{
     border-left: none;
 }
 .head-menu a:hover{
     background-color: rgba(255,255,255,.2);
+}
+.head-menu .active a{
+    top: -1px;
+    height: 52px;
+    background: url("../img/menu-active.jpg") no-repeat center/100% 100% #8b7158;
 }
 /* --------------- head-menu --------------- */
 
@@ -439,6 +461,7 @@
 /* --------------- service --------------- */
 .service{
     margin-right: -10px;
+    margin-bottom: 41px;
 }
 .service__item{
     display: inline-block;
@@ -469,6 +492,58 @@
     opacity: .7;
 }
 /* --------------- /service --------------- */
+
+/* --------------- last-news --------------- */
+.last-news{
+    padding-top: 24px;
+    padding-left: 17px;
+    border-top: 1px solid #8b4d11;
+    overflow: hidden;
+}
+.last-news h2{
+    display: inline-block;
+    margin-right: 12px;
+    font: 38px 'Georgia', serif;
+    color: #8b4d11;
+}
+.last-news__title{
+    margin-bottom: 8px;
+}
+.last-news__title a{
+    color: #fc7c00;
+    text-decoration: underline;
+}
+.last-news__item{
+    float: left;
+    width: 25%;
+    line-height: 14px;
+}
+.last-news__img{
+    margin-bottom: 5px;
+}
+.last-news__img img{
+    display: block;
+}
+.last-news__info{
+    float: left;
+    max-width: 75px;
+    margin-right: 13px;
+    padding-top: 5px;
+}
+.last-news__date{
+    font-size: 12px;
+    color: #8b4d11;
+}
+.last-news__content{
+    padding-right: 10px;
+    line-height: 17px;
+    overflow: hidden;
+}
+.last-news__content a{
+    color: #432100;
+    text-decoration: underline;
+}
+/* --------------- /last-news --------------- */
 
 /* --------------- news__list --------------- */
 .news__list__container{
