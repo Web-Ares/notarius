@@ -48,7 +48,7 @@
 
         //private methods
         var _addEvents = function () {
-                _obj.inputmask("+7(999) 999 - 99 - 99");
+                _obj.inputmask("+7(999) 999 - 99 - 99", ({ promptChar: "." }));
             },
             _init = function () {
                 _addEvents();
