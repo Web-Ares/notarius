@@ -308,7 +308,7 @@
     -webkit-transition: opacity .3s ease;
 }
 .head-info a:hover{
-    text-shadow: 1px 1px 0 #999;
+    text-shadow: 1px 1px 0 #fff;
 }
 .head-info strong{
     color: #000;
