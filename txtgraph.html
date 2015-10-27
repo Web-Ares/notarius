@@ -8,36 +8,91 @@
     <meta name="format-detection" content="address=no">
 
     <title>Title</title>
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-
+<!-- site -->
 <div class="site">
 
+    <!-- site__header -->
     <header class="site__header">
+        <!-- logo -->
+        <h1 class="logo">
+            <img src="img/logo.png" width="" height="" alt="">
+        </h1>
+        <!-- /logo -->
 
-        <h1 class="logo"><img src="img/logo.png" width="" height="" alt=""></h1><!-- /logo -->
+        <!-- head-info -->
+        <div class="head-info">
+            <!-- head-info__address -->
+            <address class="head-info__address">
+                <span>г. Уфа,</span>
+                <span><strong>ул. Советская, 25</strong></span>
+                <a href="#">Схема проезда</a>
+            </address>
+            <!-- /head-info__address -->
+            <!-- head-info__contacts -->
+            <div class="head-info__contacts">
+                <!-- phone -->
+                <a class="phone" href="tel:+73472222222">+7 (347) <strong>222-22-22</strong></a>
+                <!-- /phone -->
+                <!-- head-info__callback -->
+                <a href="#" class="head-info__callback">Заказать звонок</a>
+                <!-- /head-info__callback -->
+            </div>
+            <!-- /head-info__contacts -->
+            <!-- head-info__mode -->
+            <div class="head-info__mode">
+                <span>Режим работы</span>
+                <strong>пн-пт 9<sup>00</sup>–18<sup>00</sup></strong>
+            </div>
+            <!-- /head-info__mode -->
+        </div>
+        <!-- head-info -->
 
-        <nav class="header__menu">
-            <a href="#"></a>
-        </nav><!-- header__menu -->
+        <!-- head-menu -->
+        <nav class="head-menu">
+            <div>
+                <a href="#">Главная</a>
+                <a href="#">Услуги</a>
+                <a href="#">Отзывы</a>
+                <a href="#">О компании</a>
+                <a href="#">Контакты</a>
+            </div>
+        </nav>
+        <!-- head-menu -->
 
     </header>
     <!-- /site__header -->
 
-    <!--site__content-->
+    <!-- site__content -->
     <div class="site__content">
+        <!-- aside -->
+        <aside class="services">
+            <h2>Услуги</h2>
+            <a href="#">Юридическим лицам</a>
+            <a href="#">Гражданам</a>
+            <a href="#">Удостоверение договоров купли-продажи, мены, дарения на квартиры, дома, земельные участки и др.</a>
+            <a href="#">Оформление наследства</a>
+            <a href="#">Выезд нотариуса на дом, в офис</a>
+            <a href="#">Записаться на прием</a>
+        </aside>
+        <!-- /aside -->
 
-        <!--site__content-wrap-->
-        <div class="site__content-wrap">
+        <!--site__content-->
+        <div class="site__content">
 
-            <!--bread-crumbs-->
-            <div class="bread-crumbs">
-                <a href="#">Главная</a> > <span>О компании</span>
-            </div>
-            <!--/bread-crumbs-->
+            <!--site__content-wrap-->
+            <div class="site__content-wrap">
+
+                <!--bread-crumbs-->
+                <div class="bread-crumbs">
+                    <a href="#">Главная</a> > <span>О компании</span>
+                </div>
+                <!--/bread-crumbs-->
 
                 <h1>Новости</h1>
                 <p>Нотариальная контора частного нотариуса Фатиховой Людмилы Михайловны, образованная в ноябре 2008 года,
@@ -54,8 +109,8 @@
                             <li>Нотариальная контора частного нотариуса Фатиховой Людмилы Михайловны, образованная в
                                 ноябре 2008 года, предлагает гражданам города и юридическим лицам большой спектр нотариальных услуг.
                             <li>Нотариальная контора частного нотариуса Фатиховой Людмилы Михайловны, образованная в ноябре
-                            2008 года, предлагает гражданам города и юридическим лицам большой спектр нотариальных услуг.</li>
-                       </ol>
+                                2008 года, предлагает гражданам города и юридическим лицам большой спектр нотариальных услуг.</li>
+                        </ol>
                     </li>
                     <li>Дождаться <a href="">звонка специалиста</a> нотариальной конторы и договориться о времени приезда.</li>
                     <li>Приехать к нотариусу в Уфе (по адресу Уфимское шоссе 1/1) и оплатить услуги.</li>
@@ -134,25 +189,50 @@
 
                 </table>
 
-                </div>
-        <!--/site__content-wrap-->
+            </div>
+            <!--/site__content-wrap-->
+
+        </div>
+        <!-- /site__content -->
 
     </div>
     <!-- /site__content -->
 
+    <!-- site__footer -->
     <footer class="site__footer">
-
+        <!-- site__footer-layout -->
         <div class="site__footer-layout">
-
-        </div><!-- /site__footer-layout -->
-
+            <!-- site__footer-info -->
+            <div class="site__footer-info">
+                <div>© 2015.</div>
+                <div>Нотариус Фатихова Людмила Михайловна.</div>
+                <!-- phone -->
+                <div class="site__footer-phone">Тел. <a href="tel:3472222222">(347) 222-22-22</a>.</div>
+                <!-- /phone -->
+                <address>г. Уфа, ул. Советская, 22.</address>
+            </div>
+            <!-- /site__footer-info -->
+            <!-- site__footer-copyright -->
+            <div class="site__footer-copyright">
+                Разработка сайта —«<a href="#">Экспресс лаб</a>»
+            </div>
+            <!-- site__footer-copyright -->
+            <a href="#">
+                <img src="img/logo.png" alt="logo"/>
+            </a>
+        </div>
+        <!-- /site__footer-layout -->
     </footer>
     <!-- /site__footer -->
 
-</div><!-- /site -->
+</div>
+<!-- /site -->
 
 <script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script src="js/jquery.main.js"></script>
 
 </body>
 </html>
+
+

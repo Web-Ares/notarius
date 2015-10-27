@@ -201,17 +201,17 @@
 
 }
 .site__content-wrap ul{
-    padding-left: 26px;
+    padding-left: 16px;
 }
 .site__content-wrap ul li{
 
 }
 .site__content-wrap ul li:before{
-    content: " ";
+    content: "- ";
 }
 .site__content-wrap table{
     margin: 10px 0 20px;
-    margin-bottom: 157px;
+    margin-bottom: 132px;
     width: 772px;
 }
 .site__content-wrap table th,
@@ -396,7 +396,7 @@
 
 /* --------------- bread-crumbs --------------- */
 .bread-crumbs{
-    margin: 38px 0px;
+    margin: 6px 0;
     margin-bottom: 33px;
 }
 /* --------------- /bread-crumbs --------------- */
