@@ -88,144 +88,40 @@
     background: #e7e2d6;
     text-align: center;
 }
-/* --------------- /site --------------- */
-
-/* --------------- head-info --------------- */
-.head-info > div,
-.head-info__address{
+.site__footer-info{
     position: absolute;
-    top: 46px;
-    right: 5px;
-    width: 185px;
-    padding-left: 25px;
-    line-height: 20px;
-    background: url(../img/icons-place.png) no-repeat 0 2px;
-}
-.head-info a,
-.head-info span{
-    display: block;
-    color: #8b4d11;
-    transition: opacity .3s ease;
-    -webkit-transition: opacity .3s ease;
-}
-.head-info a:hover{
-    text-shadow: 1px 1px 0 #999;
-}
-.head-info strong{
-    color: #000;
-}
-.head-info .phone{
-    margin-bottom: 5px;
-    color: #000;
-    cursor: default;
-    line-height: 16px;
-}
-.head-info .phone:hover{
-    opacity: 1;
-}
-.head-info .phone strong{
-    position: relative;
-    top: 2px;
-    font-size: 21px;
-}
-.head-info__address{
-    right: 514px;
-    font-size: 16px;
+    top: 15px;
+    left: 20px;
+    width: 150px;
     font-style: normal;
-    background-image: url("../img/icons-place.png");
+    text-align: left;
 }
-.head-info__address a{
-    font-size: 14px;
-    color: #fc7c00;
-    text-decoration: underline;
+.site__footer-info address{
+    font-style: normal;
 }
-.head-info .head-info__contacts{
-    right: 252px;
+.site__footer-phone{
+    margin: 9px 0 8px;
 }
-.head-info .head-info__callback{
-    margin-top: 10px;
-    font-size: 18px;
-    color: #fc7c00;
-    text-decoration: underline;
-}
-.head-info .head-info__mode{
-    width: 139px;
-    font-size: 16px;
-    color: #8b4d11;
-    background-image: url("../img/icons-mode.png");
-}
-.head-info .head-info__mode sup{
-    font-size: 10px;
-}
-/* -------------- /site__header --------------- */
-
-/* --------------- header__menu --------------- */
-.header__menu{
-    position: relative;
-    height: 50px;
-    background-color: rgba(0,0,0,.7);
-    z-index: 9;
-}
-.header__menu > div{
-    display: table;
-    width: 100%;
-}
-.header__menu a{
-    display: table-cell;
-    width: 20%;
-    height: 50px;
-    border-left: 1px solid #fff;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
-    transition: background-color .3s ease;
-    -webkit-transition: background-color .3s ease;
-}
-.header__menu a:first-child{
-    border-left: none;
-}
-.header__menu a:hover{
-    background-color: rgba(255,255,255,.2);
-}
-/* --------------- header__menu --------------- */
-
-/* --------------- logo --------------- */
-.logo {
-    margin-left: 19px;
-    margin-bottom: 16px;
-}
-/* --------------- /logo --------------- */
-
-/* --------------- services --------------- */
-.services{
-    float: left;
-    width: 180px;
-    margin-top: -9px;
-    margin-right: 30px;
-    padding-left: 19px;
-    font-size: 18px;
-}
-.services a{
-    display: block;
-    margin-left: 15px;
-    margin-bottom: 7px;
+.site__footer-phone a{
     color: #432100;
-    line-height: 22px;
+    cursor: default;
+}
+.site__footer-copyright{
+    position: absolute;
+    top: 84px;
+    right: 20px;
+    width: 145px;
+    text-align: left;
+}
+.site__footer-copyright a{
+    color: #432100;
     text-decoration: underline;
     transition: opacity .3s ease;
     -webkit-transition: opacity .3s ease;
 }
-.services a:hover{
-    opacity: .5;
+.site__footer-copyright a:hover{
+    opacity: .7;
 }
-.services h2{
-    margin-bottom: 12px;
-    font: normal 38px 'Georgia', serif;
-    color: #8b4d11;
-}
-/* --------------- /services --------------- */
-
-/* --------------- site__content-wrap --------------- */
 .site__content-wrap{
     margin-bottom: 20px;
     font-size: 14px;
@@ -360,7 +256,142 @@ table caption{
     padding-left: 10px;
     margin-bottom: 11px;
 }
-/* --------------- /site__content-wrap --------------- */
+/* --------------- /site --------------- */
+
+/* --------------- head-info --------------- */
+.head-info > div,
+.head-info__address{
+    position: absolute;
+    top: 46px;
+    right: 5px;
+    width: 185px;
+    padding-left: 25px;
+    line-height: 20px;
+    background: url(../img/icons-place.png) no-repeat 0 2px;
+}
+.head-info a,
+.head-info span{
+    display: block;
+    color: #8b4d11;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.head-info a:hover{
+    text-shadow: 1px 1px 0 #999;
+}
+.head-info strong{
+    color: #000;
+}
+.head-info .phone{
+    margin-bottom: 5px;
+    color: #000;
+    cursor: default;
+    line-height: 16px;
+}
+.head-info .phone:hover{
+    opacity: 1;
+}
+.head-info .phone strong{
+    position: relative;
+    top: 2px;
+    font-size: 21px;
+}
+.head-info__address{
+    right: 514px;
+    font-size: 16px;
+    font-style: normal;
+    background-image: url("../img/icons-place.png");
+}
+.head-info__address a{
+    font-size: 14px;
+    color: #fc7c00;
+    text-decoration: underline;
+}
+.head-info .head-info__contacts{
+    right: 252px;
+}
+.head-info .head-info__callback{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fc7c00;
+    text-decoration: underline;
+}
+.head-info .head-info__mode{
+    width: 139px;
+    font-size: 16px;
+    color: #8b4d11;
+    background-image: url("../img/icons-mode.png");
+}
+.head-info .head-info__mode sup{
+    font-size: 10px;
+}
+/* -------------- /head-info --------------- */
+
+/* --------------- logo --------------- */
+.logo {
+    margin-left: 19px;
+    margin-bottom: 16px;
+}
+/* --------------- /logo --------------- */
+
+/* --------------- head-menu --------------- */
+.head-menu{
+    position: relative;
+    height: 50px;
+    background-color: rgba(0,0,0,.7);
+    z-index: 9;
+}
+.head-menu > div{
+    display: table;
+    width: 100%;
+}
+.head-menu a{
+    display: table-cell;
+    width: 20%;
+    height: 50px;
+    border-left: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease;
+}
+.head-menu a:first-child{
+    border-left: none;
+}
+.head-menu a:hover{
+    background-color: rgba(255,255,255,.2);
+}
+/* --------------- head-menu --------------- */
+
+/* --------------- services --------------- */
+.services{
+    float: left;
+    width: 180px;
+    margin-top: -9px;
+    margin-right: 30px;
+    padding-left: 19px;
+    font-size: 18px;
+}
+.services a{
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 7px;
+    color: #432100;
+    line-height: 22px;
+    text-decoration: underline;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.services a:hover{
+    opacity: .5;
+}
+.services h2{
+    margin-bottom: 12px;
+    font: normal 38px 'Georgia', serif;
+    color: #8b4d11;
+}
+/* --------------- /services --------------- */
 
 /* --------------- bread-crumbs --------------- */
 .bread-crumbs{
@@ -368,7 +399,6 @@ table caption{
     margin-bottom: 33px;
 }
 /* --------------- /bread-crumbs --------------- */
-
 
 /* -------------- swiper-container --------------- */
 .swiper-container{
@@ -410,7 +440,7 @@ table caption{
 .service{
     margin-right: -10px;
 }
-.service-item{
+.service__item{
     display: inline-block;
     width: 175px;
     margin-right: 20px;
@@ -422,10 +452,10 @@ table caption{
 .service__img{
     margin-bottom: 2px;
 }
-.service-item a{
+.service__item a{
     text-decoration: none;
 }
-.service-item a span{
+.service__item a span{
     display: block;
     height: 57px;
     margin: 0 -1px;
@@ -435,7 +465,7 @@ table caption{
     transition: opacity .3s ease;
     -webkit-transition: opacity .3s ease;
 }
-.service-item a span:hover{
+.service__item a span:hover{
     opacity: .7;
 }
 /* --------------- /service --------------- */
@@ -661,40 +691,3 @@ input[type="name"]{
     margin-bottom: -5px;
 }
 /* --------------- /contacts --------------- */
-
-/* --------------- site__footer-layout --------------- */
-.site__footer-info{
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    width: 150px;
-    font-style: normal;
-    text-align: left;
-}
-.site__footer-info address{
-    font-style: normal;
-}
-.site__footer-info .phone{
-    margin: 9px 0 8px;
-}
-.site__footer-layout .phone a{
-    color: #432100;
-    cursor: default;
-}
-.site__footer-copyright{
-    position: absolute;
-    top: 84px;
-    right: 20px;
-    width: 145px;
-    text-align: left;
-}
-.site__footer-copyright a{
-    color: #432100;
-    text-decoration: underline;
-    transition: opacity .3s ease;
-    -webkit-transition: opacity .3s ease;
-}
-.site__footer-copyright a:hover{
-    opacity: .7;
-}
-/* --------------- /site__footer-layout --------------- */
