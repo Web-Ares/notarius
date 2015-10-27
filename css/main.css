@@ -655,7 +655,7 @@ input[type="name"]{
 .contacts div strong{
     display: inline-block;
     font-size: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .contacts div span{
     margin-bottom: -5px;
