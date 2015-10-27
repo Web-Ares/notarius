@@ -421,6 +421,7 @@ input[type="tel"]{
     letter-spacing: 1.4px;
     word-spacing: -5px;
 }
+
 .head-menu a:first-child{
     border-left: none;
 }
@@ -699,7 +700,11 @@ input[type="tel"]{
     height: 33px;
     background: #f6f4ef;
     border: none;
-    font-size: 14px;
+    line-height: 32px;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -5px;
 }
 .textbox{
     display: inline-block;
