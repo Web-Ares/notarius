@@ -46,6 +46,27 @@
 }
 /* --------------- /placeholder --------------- */
 
+/* --------------- placeholder --------------- */
+textarea::-webkit-input-placeholder {
+    color: #605447;
+    font: 14px 'PT Sans', sans-serif;
+    letter-spacing:0;
+    word-spacing: 0;
+}
+textarea:-moz-placeholder {
+    color: #605447;
+    font: 14px 'PT Sans', sans-serif;
+    letter-spacing:0;
+    word-spacing: 0;
+   }
+textarea .placeholder {
+    color: #605447;
+    font: 14px 'PT Sans', sans-serif;
+    letter-spacing:0;
+    word-spacing: 0;
+   }
+/* --------------- /placeholder --------------- */
+
 /* --------------- site --------------- */
 .site {
     min-height: 100%;
@@ -693,6 +714,7 @@ input[type="tel"]{
     padding-top: 6px;
 }
 .reviews__leave-feedback{
+    font-family: "Georgia","sans-serif";
     width: 100%;
     background-color: #ede9e0;
     padding-top: 13px;
@@ -750,7 +772,6 @@ input[type="tel"]{
     box-sizing: border-box;
     -moz-border-radius: 3px;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     display: block;
@@ -780,7 +801,6 @@ input[type="tel"]{
     padding: 10px;
     background: #877d73;
     color: #FFF;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
     transition: background .4s;
@@ -794,6 +814,7 @@ input[type="tel"]{
     color: #432100;
 }
 .form-title{
+
     display: inline-block;
     width: 220px;
     height: 62px;
@@ -811,23 +832,24 @@ input[type="tel"]{
 .contacts{
     font-family: "PT Sans","sans-serif";
     font-style:normal;
-    margin-bottom: 45px;
+    margin-bottom: 26px;
+    margin-top: -4px;
 }
 .contacts span{
     display: block;
     font-size: 14px;
     color: #432100;
-    margin-top: 25px;
+    margin-bottom: 4px;
 }
 .contacts strong{
     display: block;
     font-size: 18px;
-    margin-bottom: 26px;
+    margin-bottom: 22px;
 }
 .contacts div strong{
     display: inline-block;
     font-size: 18px;
-    margin-bottom: 0;
+    margin-top: 2px;
 }
 .contacts div span{
     margin-bottom: -5px;
