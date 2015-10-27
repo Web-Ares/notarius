@@ -8,27 +8,79 @@
     <meta name="format-detection" content="address=no">
 
     <title>Title</title>
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-
+<!-- site -->
 <div class="site">
 
+    <!-- site__header -->
     <header class="site__header">
+        <!-- logo -->
+        <h1 class="logo">
+            <img src="img/logo.png" width="" height="" alt="">
+        </h1>
+        <!-- /logo -->
 
-        <h1 class="logo"><img src="img/logo.png" width="" height="" alt=""></h1><!-- /logo -->
+        <!-- head-info -->
+        <div class="head-info">
+            <!-- head-info__address -->
+            <address class="head-info__address">
+                <span>г. Уфа,</span>
+                <span><strong>ул. Советская, 25</strong></span>
+                <a href="#">Схема проезда</a>
+            </address>
+            <!-- /head-info__address -->
+            <!-- head-info__contacts -->
+            <div class="head-info__contacts">
+                <!-- phone -->
+                <a class="phone" href="tel:+73472222222">+7 (347) <strong>222-22-22</strong></a>
+                <!-- /phone -->
+                <!-- head-info__callback -->
+                <a href="#" class="head-info__callback">Заказать звонок</a>
+                <!-- /head-info__callback -->
+            </div>
+            <!-- /head-info__contacts -->
+            <!-- head-info__mode -->
+            <div class="head-info__mode">
+                <span>Режим работы</span>
+                <strong>пн-пт 9<sup>00</sup>–18<sup>00</sup></strong>
+            </div>
+            <!-- /head-info__mode -->
+        </div>
+        <!-- head-info -->
 
-        <nav class="header__menu">
-            <a href="#"></a>
-        </nav><!-- header__menu -->
+        <!-- head-menu -->
+        <nav class="head-menu">
+            <div>
+                <a href="#">Главная</a>
+                <a href="#">Услуги</a>
+                <a href="#">Отзывы</a>
+                <a href="#">О компании</a>
+                <a href="#">Контакты</a>
+            </div>
+        </nav>
+        <!-- head-menu -->
 
     </header>
     <!-- /site__header -->
 
-    <!--site__content-->
+    <!-- site__content -->
     <div class="site__content">
+        <!-- aside -->
+        <aside class="services">
+            <h2>Услуги</h2>
+            <a href="#">Юридическим лицам</a>
+            <a href="#">Гражданам</a>
+            <a href="#">Удостоверение договоров купли-продажи, мены, дарения на квартиры, дома, земельные участки и др.</a>
+            <a href="#">Оформление наследства</a>
+            <a href="#">Выезд нотариуса на дом, в офис</a>
+            <a href="#">Записаться на прием</a>
+        </aside>
+        <!-- /aside -->
 
         <!--site__content-wrap-->
         <div class="site__content-wrap">
@@ -48,7 +100,7 @@
                 выполнить ряд действий:</p>
 
 
-            <ol>
+            <ol class="list-strong">
                 <li>Заполнить форму заказа звонка</li>
 
                 <!-- reviews__leave-feedback -->
@@ -73,37 +125,44 @@
                 <li>Получить документ без очередей и томительного ожидания.</li>
             </ol>
 
-            <h4>Какие нотариальные услуги оказывает нотариус Фатихова Л. М.</h4>
-            <p>Частный нотариус Хомячук А.В., также как и другие нотариусы г.Уфы, оказывает полный перечень
-                услуг для физических и юридических лиц.</p>
+            <!--supports-->
+            <div class="supports">
 
-            <h5>Для юридических лиц:</h5>
-            <ul>
-                <li>составления заявления для налоговой службы;</li>
-                <li>удостоверение доверенностей;</li>
-                <li>подтверждение подлинности подписей на заявлениях и банковских картах;</li>
-                <li>залог и продажа долей в ООО.</li>
-            </ul>
-            <h5>Доверенности:</h5>
-            <ul>
-                <li>генеральные;</li>
-                <li>на транспортное средство;</li>
-                <li>судебные;</li>
-                <li>для сбора документации;</li>
-                <li>прочие.</li>
-            </ul>
-            <h5>Семейные отношения:</h5>
-            <ul>
-                <li>брачные договоры;</li>
-                <li>различные соглашения (в том числе алиментные, о воспитании детей, о разделе имущества);</li>
-                <li>сзаявления об отсутствии брака.</li>
-            </ul>
-            <h5>Сделки с недвижимостью:</h5>
-            <ul>
-                <li>передача объектов в безвозмездное пользование;</li>
-                <li>договоры об отчуждении.</li>
-            </ul>
-            <h5>Другие нотариальные действия.</h5>
+                <h4>Какие нотариальные услуги оказывает нотариус Фатихова Л. М.</h4>
+                <p>Частный нотариус Хомячук А.В., также как и другие нотариусы г.Уфы, оказывает полный перечень
+                    услуг для физических и юридических лиц.</p>
+
+                <h5>Для юридических лиц:</h5>
+                <ul>
+                    <li>составления заявления для налоговой службы;</li>
+                    <li>удостоверение доверенностей;</li>
+                    <li>подтверждение подлинности подписей на заявлениях и банковских картах;</li>
+                    <li>залог и продажа долей в ООО.</li>
+                </ul>
+                <h5>Доверенности:</h5>
+                <ul>
+                    <li>генеральные;</li>
+                    <li>на транспортное средство;</li>
+                    <li>судебные;</li>
+                    <li>для сбора документации;</li>
+                    <li>прочие.</li>
+                </ul>
+                <h5>Семейные отношения:</h5>
+                <ul>
+                    <li>брачные договоры;</li>
+                    <li>различные соглашения (в том числе алиментные, о воспитании детей, о разделе имущества);</li>
+                    <li>сзаявления об отсутствии брака.</li>
+                </ul>
+                <h5>Сделки с недвижимостью:</h5>
+                <ul>
+                    <li>передача объектов в безвозмездное пользование;</li>
+                    <li>договоры об отчуждении.</li>
+                </ul>
+
+            </div>
+            <!--/supports-->
+
+            <p>Другие нотариальные действия.</p>
             <p>Если по состоянию здоровья вы не можете лично приехать в нотариальную контору, можно заказать вызов
                 нотариуса на дом. При этом нотариусы г.Уфы за выезд взимают дополнительную плату, согласно тарифам.
                 Стоимость нотариальных услуг рассчитывается по принятым на законодательном уровне тарифам, о
@@ -114,19 +173,41 @@
     </div>
     <!-- /site__content -->
 
+    <!-- site__footer -->
     <footer class="site__footer">
-
+        <!-- site__footer-layout -->
         <div class="site__footer-layout">
-
-        </div><!-- /site__footer-layout -->
-
+            <!-- site__footer-info -->
+            <div class="site__footer-info">
+                <div>© 2015.</div>
+                <div>Нотариус Фатихова Людмила Михайловна.</div>
+                <!-- phone -->
+                <div class="site__footer-phone">Тел. <a href="tel:3472222222">(347) 222-22-22</a>.</div>
+                <!-- /phone -->
+                <address>г. Уфа, ул. Советская, 22.</address>
+            </div>
+            <!-- /site__footer-info -->
+            <!-- site__footer-copyright -->
+            <div class="site__footer-copyright">
+                Разработка сайта —«<a href="#">Экспресс лаб</a>»
+            </div>
+            <!-- site__footer-copyright -->
+            <a href="#">
+                <img src="img/logo.png" alt="logo"/>
+            </a>
+        </div>
+        <!-- /site__footer-layout -->
     </footer>
     <!-- /site__footer -->
 
-</div><!-- /site -->
+</div>
+<!-- /site -->
 
 <script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script src="js/jquery.main.js"></script>
+<script src="js/jquery.inputmask.min.js"></script>
 
 </body>
 </html>
+
