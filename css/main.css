@@ -301,7 +301,7 @@
 .head-info__address{
     position: absolute;
     top: 46px;
-    right: 5px;
+    right: 6px;
     width: 185px;
     padding-left: 25px;
     line-height: 20px;
@@ -335,17 +335,19 @@
     font-size: 21px;
 }
 .head-info__address{
-    right: 514px;
+    right: 516px;
     font-size: 16px;
     font-style: normal;
+    line-height: 19px;
 }
 .head-info__address a{
+    margin-top: 3px;
     font-size: 14px;
     color: #fc7c00;
     text-decoration: underline;
 }
 .head-info .head-info__contacts{
-    right: 252px;
+    right: 254px;
     background-image: url("../img/icons-phone.png");
 }
 .head-info .head-info__callback{
@@ -517,6 +519,14 @@ input[type="tel"]{
 .service{
     margin-right: -10px;
     margin-bottom: 41px;
+}
+.service h2{
+    color: #f27800;
+    font-family: "Georgia",sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-bottom: 27px;
 }
 .service__item{
     display: inline-block;
