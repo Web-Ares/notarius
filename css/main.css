@@ -162,6 +162,7 @@ textarea .placeholder {
     line-height: 18px;
     color: #432100;
     overflow: hidden;
+    width: 770px;
 }
 .content  a{
     color:  #432100;
@@ -654,56 +655,59 @@ input[type="tel"]{
 /* --------------- /last-news --------------- */
 
 /* --------------- news__list --------------- */
-.news__list__container{
-    font-family: "PT Sans","sans-serif";
-    width: 770px;
-    margin-bottom: 17px;
-    margin-left: 2px;
+.content__news-list{
+
 }
-.content-time{
+.content__news-list-time{
     display: block;
     color: #8b4d11;
     font-size: 12px;
     margin-bottom: 7px;
     margin-top: -3px;
 }
-.news__list-title{
+.content__news-list-title{
     display: block;
     font: normal 24px 'Georgia', serif;
     margin-bottom: 6px;
     letter-spacing: 0.1px;
 }
-.news__list__container-img{
+.content__news-list-img{
     display: inline-block;
     width: 175px;
     height: 117px;
     vertical-align: top;
 }
-.news__list__container__content{
+.content__news-list-item{
     display: inline-block;
-    width: 570px;
+    width: 573px;
     vertical-align: top;
     margin-left: 17px;
+    margin-bottom: 12px;
 }
-.content_without-photo{
+.content__news-list-item p{
+    line-height: 17px;
+    font-family: "PT Sans","sans-serif";
+}
+.content__news-list_without-img{
     width: 100%;
     margin-left: 0px;
 }
+/* --------------- /news__list --------------- */
+
+/* --------------- content__news --------------- */
 .content-title{
+    margin-top: -14px;
     line-height: 38px !important;
     margin-bottom: 12px !important;
 }
-/* --------------- /news__list --------------- */
-
-/* --------------- news --------------- */
 .content__news-img{
     float: right;
     width: 449px;
     height: 300px;
-    margin-left: 5px;
+    margin-left: 32px;
     margin-bottom: 22px;
 }
-.news_time{
+.content__news_time{
     margin-bottom: 26px;
 }
 .content__news p{
@@ -712,27 +716,27 @@ input[type="tel"]{
     margin-bottom: 7px;
     line-height: 17px;
 }
-/* --------------- /news --------------- */
+/* --------------- /content__news --------------- */
 
 /* --------------- reviews --------------- */
-.reviews{
+.content__reviews{
     font-family: 'PT Sans', sans-serif;
     width: 770px;
     margin-top: -10px;
 }
-.reviews__user{
+.content__reviews__user{
     background-color: #ede9e0;
     padding: 8px 19px 10px 20px;
 }
-.reviews__user p{
+.content__reviews__user p{
     letter-spacing: 0.18px;
     margin-bottom: 0;
 }
-.reviews__admin{
+.content__reviews__admin{
     width: 100%;
     margin-bottom: 16px;
 }
-.reviews__admin-img{
+.content__reviews__admin-img{
     position: relative;
     display: inline-block;
     width: 45px;
@@ -740,13 +744,13 @@ input[type="tel"]{
     top: 1px;
     left: 19px;
 }
-.reviews__admin-content{
+.content__reviews__admin-comment{
     display: inline-block;
     width: 693px;
     margin-left: 25px;
     padding-top: 6px;
 }
-.reviews__leave-feedback{
+.content__reviews__leave-feedback{
     font-family: "Georgia","sans-serif";
     width: 100%;
     background-color: #ede9e0;
@@ -755,7 +759,7 @@ input[type="tel"]{
     margin-top: 20px;
     border-radius: 3px;
 }
-.reviews__leave-feedback:after{
+.content__reviews__leave-feedback:after{
     content: "";
     position: absolute;
     width: 770px;
@@ -812,11 +816,11 @@ input[type="tel"]{
     overflow: hidden;
     margin: 13px auto;
 }
-.reviews__leave-feedback input[type="email"]{
+.content__reviews__leave-feedback input[type="email"]{
     font-size:14px;
     padding: 7px;
 }
-.reviews__leave-feedback input[type="name"]{
+.content__reviews__leave-feedback input[type="name"]{
     font-size:14px;
     padding: 7px;
 }
@@ -843,11 +847,10 @@ input[type="tel"]{
 .button:hover{
     background:rgba(0,0,0,.3);
 }
-.reviews__leave-feedback span{
+.content__reviews__leave-feedback span{
     color: #432100;
 }
-.form-title{
-
+.leave-feedback-title{
     display: inline-block;
     width: 220px;
     height: 62px;
@@ -856,35 +859,35 @@ input[type="tel"]{
     margin-right: -36px;
     padding-top: 20px;
 }
-.reviews__admin-content strong{
+.content__reviews__admin strong{
     display: block;
 }
 /* --------------- /reviews --------------- */
 
 /* --------------- contacts --------------- */
-.contacts{
+.content__contacts{
     font-family: "PT Sans","sans-serif";
     font-style:normal;
     margin-bottom: 26px;
     margin-top: -4px;
 }
-.contacts span{
+.content__contacts span{
     display: block;
     font-size: 14px;
     color: #432100;
     margin-bottom: 4px;
 }
-.contacts strong{
+.content__contacts strong{
     display: block;
     font-size: 18px;
     margin-bottom: 22px;
 }
-.contacts div strong{
+.content__contacts div strong{
     display: inline-block;
     font-size: 18px;
     margin-top: 2px;
 }
-.contacts div span{
+.content__contacts div span{
     margin-bottom: -5px;
 }
 /* --------------- /contacts --------------- */
