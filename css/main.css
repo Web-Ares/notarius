@@ -247,10 +247,10 @@
     border-bottom: 1px solid #605447;
 }
 
-table{
+.site__content-wrap table{
     font-family: 'PT Sans', sans-serif;
 }
-table caption{
+.site__content-wrap table caption{
     text-align: left;
     font-weight: bold;
     padding-left: 10px;
