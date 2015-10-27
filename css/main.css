@@ -57,7 +57,7 @@
 .site__header {
     position: relative;
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 33px;
     padding-top: 14px;
     z-index: 3;
 }
@@ -127,6 +127,7 @@
     font-size: 14px;
     line-height: 18px;
     color: #432100;
+    overflow: hidden;
 }
 .site__content-wrap  a{
     color:  #432100;
@@ -403,7 +404,6 @@ table caption{
 /* -------------- swiper-container --------------- */
 .swiper-container{
     margin-top: -50px;
-    margin-bottom: 33px;
     border-bottom: 3px solid #8b4d11;
 }
 .swiper-slide{
