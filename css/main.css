@@ -27,13 +27,22 @@
 
 /* --------------- placeholder --------------- */
 ::-webkit-input-placeholder {
-    color: #000;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -5px;
 }
 :-moz-placeholder {
-    color: #000;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -5px;
 }
 .placeholder {
-    color: #000;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -5px;
 }
 /* --------------- /placeholder --------------- */
 
@@ -57,7 +66,7 @@
 .site__header {
     position: relative;
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 33px;
     padding-top: 14px;
     z-index: 3;
 }
@@ -123,7 +132,7 @@
     opacity: .7;
 }
 .site__content-wrap{
-    margin-bottom: 20px;
+    margin-bottom: 128px;
     font-size: 14px;
     line-height: 18px;
     color: #432100;
@@ -171,6 +180,20 @@
     margin-bottom: 10px;
 }
 
+.site__content-wrap h4{
+   font-size: 18px;
+   font-family: 'Georgia', sans-serif;
+   color: #432100;
+  font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.site__content-wrap h5{
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 12px;
+ }
+
 .site__content-wrap ol{
     counter-reset: li;
     list-style: none;
@@ -182,6 +205,10 @@
     padding-left: 14px;
     line-height: 25px;
     margin-top: 2px;
+}
+
+.site__content-wrap  .list-strong li{
+    font-weight: bold;
 }
 .site__content-wrap ol>li li{
     line-height: 17px;
@@ -201,17 +228,17 @@
 
 }
 .site__content-wrap ul{
-    padding-left: 26px;
+    padding-left: 16px;
 }
 .site__content-wrap ul li{
 
 }
 .site__content-wrap ul li:before{
-    content: " ";
+    content: "- ";
 }
 .site__content-wrap table{
     margin: 10px 0 20px;
-    margin-bottom: 157px;
+    margin-bottom: 33px;
     width: 772px;
 }
 .site__content-wrap table th,
@@ -219,8 +246,8 @@
     width: 181px;
     vertical-align: middle;
     padding: 1px 12px;
-
 }
+
 .site__content-wrap table th{
     background-color: #9bb2c8;
     color: #fff;
@@ -248,14 +275,17 @@
     border-bottom: 1px solid #605447;
 }
 
-table{
+.site__content-wrap table{
     font-family: 'PT Sans', sans-serif;
 }
-table caption{
+.site__content-wrap table caption{
     text-align: left;
     font-weight: bold;
     padding-left: 10px;
     margin-bottom: 11px;
+}
+.site__content-wrap .supports{
+    margin-bottom: 9px;
 }
 /* --------------- /site --------------- */
 
@@ -290,7 +320,7 @@ table caption{
     line-height: 16px;
 }
 .head-info .phone:hover{
-    opacity: 1;
+    text-shadow: none;
 }
 .head-info .phone strong{
     position: relative;
@@ -301,7 +331,6 @@ table caption{
     right: 514px;
     font-size: 16px;
     font-style: normal;
-    background-image: url("../img/icons-place.png");
 }
 .head-info__address a{
     font-size: 14px;
@@ -310,6 +339,7 @@ table caption{
 }
 .head-info .head-info__contacts{
     right: 252px;
+    background-image: url("../img/icons-phone.png");
 }
 .head-info .head-info__callback{
     margin-top: 10px;
@@ -339,29 +369,68 @@ table caption{
 .head-menu{
     position: relative;
     height: 50px;
-    background-color: rgba(0,0,0,.7);
     z-index: 9;
+    background-color: #605447;
 }
-.head-menu > div{
+.head-menu_index{
+    background-color: rgba(0,0,0,.7);
+}
+.head-menu > ul{
     display: table;
     width: 100%;
 }
-.head-menu a{
+.head-menu li{
+    position: relative;
     display: table-cell;
     width: 20%;
     height: 50px;
-    border-left: 1px solid #fff;
-    color: #fff;
+    border-left: 1px solid #766a5f;
     text-align: center;
-    vertical-align: middle;
+}
+.head-menu_index li{
+    border-left-color: #fff;
+}
+.head-menu li a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    padding: 14px 10px 0;
+    font-size: 16px;
+    color: #fff;
     transition: background-color .3s ease;
     -webkit-transition: background-color .3s ease;
 }
 .head-menu a:first-child{
     border-left: none;
 }
+.email_contact {
+    width: 227px;
+    padding: 7px 5px;
+}
+.contact{
+    display: inline-block;
+}
+input[type="tel"]{
+    line-height: 32px;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -5px;
+}
+.head-menu a:first-child{
+    border-left: none;
+}
 .head-menu a:hover{
     background-color: rgba(255,255,255,.2);
+}
+.head-menu .active a{
+    top: -1px;
+    height: 52px;
+    background: url("../img/menu-active.jpg") no-repeat center/100% 100% #8b7158;
 }
 /* --------------- head-menu --------------- */
 
@@ -396,7 +465,7 @@ table caption{
 
 /* --------------- bread-crumbs --------------- */
 .bread-crumbs{
-    margin: 38px 0px;
+    margin: 6px 0;
     margin-bottom: 33px;
 }
 /* --------------- /bread-crumbs --------------- */
@@ -404,7 +473,6 @@ table caption{
 /* -------------- swiper-container --------------- */
 .swiper-container{
     margin-top: -50px;
-    margin-bottom: 33px;
     border-bottom: 3px solid #8b4d11;
 }
 .swiper-slide{
@@ -440,6 +508,7 @@ table caption{
 /* --------------- service --------------- */
 .service{
     margin-right: -10px;
+    margin-bottom: 41px;
 }
 .service__item{
     display: inline-block;
@@ -471,25 +540,75 @@ table caption{
 }
 /* --------------- /service --------------- */
 
+/* --------------- last-news --------------- */
+.last-news{
+    padding-top: 24px;
+    padding-left: 17px;
+    border-top: 1px solid #8b4d11;
+    overflow: hidden;
+}
+.last-news h2{
+    display: inline-block;
+    margin-right: 12px;
+    font: 38px 'Georgia', serif;
+    color: #8b4d11;
+}
+.last-news__title{
+    margin-bottom: 8px;
+}
+.last-news__title a{
+    color: #fc7c00;
+    text-decoration: underline;
+}
+.last-news__item{
+    float: left;
+    width: 25%;
+    line-height: 14px;
+}
+.last-news__img{
+    margin-bottom: 5px;
+}
+.last-news__img img{
+    display: block;
+}
+.last-news__info{
+    float: left;
+    max-width: 75px;
+    margin-right: 13px;
+    padding-top: 5px;
+}
+.last-news__date{
+    font-size: 12px;
+    color: #8b4d11;
+}
+.last-news__content{
+    padding-right: 10px;
+    line-height: 17px;
+    overflow: hidden;
+}
+.last-news__content a{
+    color: #432100;
+    text-decoration: underline;
+}
+/* --------------- /last-news --------------- */
+
 /* --------------- news__list --------------- */
 .news__list__container{
-    font-family: "PT Sans","sans-serif";
-    width: 770px;
+    font-family: "PT Sans Regular","sans-serif";
+    width: 774px;
     margin-bottom: 17px;
-    margin-left: 2px;
 }
 .content-time{
     display: block;
     color: #8b4d11;
     font-size: 12px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
     margin-top: -3px;
 }
 .content-title{
     display: block;
-    font: normal 24px 'Georgia', serif;
-    margin-bottom: 6px;
-    letter-spacing: 0.1px;
+    font-size: 24px;
+    margin-bottom: 8px;
 }
 .news__list__container-img{
     display: inline-block;
@@ -508,8 +627,8 @@ table caption{
     margin-left: 0px;
 }
 .news-title{
-    line-height: 38px !important;
-    margin-bottom: 12px !important;
+    line-height: 39px !important;
+    margin-bottom: 10px !important;
 }
 /* --------------- /news__list --------------- */
 
@@ -518,16 +637,15 @@ table caption{
     float: right;
     width: 449px;
     height: 300px;
-    margin-left: 5px;
+    margin-left: 17px;
     margin-bottom: 22px;
 }
 .news_time{
     margin-bottom: 26px;
 }
 .news__list__container p{
-    font-family: "PT Sans","sans-serif";
-    letter-spacing: 0.15px;
-    margin-bottom: 7px;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
     line-height: 17px;
 }
 /* --------------- /news --------------- */
@@ -604,7 +722,7 @@ table caption{
 .email_textbox{
     width:305px;
     margin-left: 11px;
- }
+}
 .email_textbox span{
     font-style: italic;
     font-size: 13px;
@@ -681,26 +799,25 @@ table caption{
 
 /* --------------- contacts --------------- */
 .contacts{
-    font-family: "PT Sans","sans-serif";
+    font-family: "PT Sans Regular","sans-serif";
     font-style:normal;
-    margin-bottom: 26px;
-    margin-top: -4px;
+    margin-bottom: 45px;
 }
 .contacts span{
     display: block;
     font-size: 14px;
     color: #432100;
-    margin-bottom: 4px;
+    margin-top: 25px;
 }
 .contacts strong{
     display: block;
     font-size: 18px;
-    margin-bottom: 22px;
+    margin-bottom: 26px;
 }
 .contacts div strong{
     display: inline-block;
     font-size: 18px;
-    margin-top: 2px;
+    margin-bottom: 0;
 }
 .contacts div span{
     margin-bottom: -5px;
