@@ -127,6 +127,7 @@
     font-size: 14px;
     line-height: 18px;
     color: #432100;
+    overflow: hidden;
 }
 .site__content-wrap  a{
     color:  #432100;
@@ -472,21 +473,23 @@ table caption{
 
 /* --------------- news__list --------------- */
 .news__list__container{
-    font-family: "PT Sans Regular","sans-serif";
-    width: 774px;
+    font-family: "PT Sans","sans-serif";
+    width: 770px;
     margin-bottom: 17px;
+    margin-left: 2px;
 }
 .content-time{
     display: block;
     color: #8b4d11;
     font-size: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
     margin-top: -3px;
 }
 .content-title{
     display: block;
-    font-size: 24px;
-    margin-bottom: 8px;
+    font: normal 24px 'Georgia', serif;
+    margin-bottom: 6px;
+    letter-spacing: 0.1px;
 }
 .news__list__container-img{
     display: inline-block;
@@ -505,8 +508,8 @@ table caption{
     margin-left: 0px;
 }
 .news-title{
-    line-height: 39px !important;
-    margin-bottom: 10px !important;
+    line-height: 38px !important;
+    margin-bottom: 12px !important;
 }
 /* --------------- /news__list --------------- */
 
@@ -515,35 +518,37 @@ table caption{
     float: right;
     width: 449px;
     height: 300px;
-    margin-left: 17px;
+    margin-left: 5px;
     margin-bottom: 22px;
 }
 .news_time{
     margin-bottom: 26px;
 }
 .news__list__container p{
-    letter-spacing: 0.2px;
-    margin-bottom: 10px;
+    font-family: "PT Sans","sans-serif";
+    letter-spacing: 0.15px;
+    margin-bottom: 7px;
     line-height: 17px;
 }
 /* --------------- /news --------------- */
 
 /* --------------- reviews --------------- */
 .reviews{
-    font-family: 'PT Sans Regular', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     width: 770px;
     margin-top: -10px;
 }
 .reviews__user{
     background-color: #ede9e0;
-    padding: 10px 10px 10px 20px;
+    padding: 8px 19px 10px 20px;
 }
 .reviews__user p{
+    letter-spacing: 0.18px;
     margin-bottom: 0;
 }
 .reviews__admin{
     width: 100%;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 .reviews__admin-img{
     position: relative;
@@ -563,8 +568,17 @@ table caption{
     width: 100%;
     background-color: #ede9e0;
     padding-top: 13px;
-    padding-bottom: 13px;
-    margin-top: 19px;
+    padding-bottom: 1px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.reviews__leave-feedback:after{
+    content: "";
+    position: absolute;
+    width: 770px;
+    height: 16px;
+    bottom: -8px;
+    background: url("../img/table-line.png");
 }
 .input-textbox{
     width: 100%;
@@ -589,7 +603,7 @@ table caption{
 }
 .email_textbox{
     width:305px;
-    margin-left: 8px;
+    margin-left: 11px;
  }
 .email_textbox span{
     font-style: italic;
@@ -602,7 +616,7 @@ table caption{
 }
 .message{
     background: #f6f4ef;
-    width: 741px;
+    width: 740px;
     height: 214px;
     border: #f6f4ef;
     box-sizing: border-box;
@@ -616,11 +630,11 @@ table caption{
     overflow: hidden;
     margin: 13px auto;
 }
-input[type="email"]{
+.reviews__leave-feedback input[type="email"]{
     font-size:14px;
     padding: 7px;
 }
-input[type="name"]{
+.reviews__leave-feedback input[type="name"]{
     font-size:14px;
     padding: 7px;
 }
@@ -630,20 +644,20 @@ input[type="name"]{
 }
 .button{
     display: block;
-    height:63px;
-    width:62px;
-    border-radius:3px;
-    border:rgba(0,0,0,.3) 0px solid;
-    box-sizing:border-box;
-    padding:10px;
-    background:#877d73;
-    color:#FFF;
+    height: 63px;
+    width: 62px;
+    border-radius: 3px;
+    border: rgba(0,0,0,.3) 0px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #877d73;
+    color: #FFF;
     font-family: 'Open Sans', sans-serif;
-    font-weight:400;
+    font-weight: 400;
     font-size: 24px;
-    transition:background .4s;
-    cursor:pointer;
-    margin: 0 auto;
+    transition: background .4s;
+    cursor: pointer;
+    margin: 15px auto;
 }
 .button:hover{
     background:rgba(0,0,0,.3);
@@ -667,25 +681,26 @@ input[type="name"]{
 
 /* --------------- contacts --------------- */
 .contacts{
-    font-family: "PT Sans Regular","sans-serif";
+    font-family: "PT Sans","sans-serif";
     font-style:normal;
-    margin-bottom: 45px;
+    margin-bottom: 26px;
+    margin-top: -4px;
 }
 .contacts span{
     display: block;
     font-size: 14px;
     color: #432100;
-    margin-top: 25px;
+    margin-bottom: 4px;
 }
 .contacts strong{
     display: block;
     font-size: 18px;
-    margin-bottom: 26px;
+    margin-bottom: 22px;
 }
 .contacts div strong{
     display: inline-block;
     font-size: 18px;
-    margin-bottom: 0;
+    margin-top: 2px;
 }
 .contacts div span{
     margin-bottom: -5px;
