@@ -277,15 +277,9 @@ textarea .placeholder {
 .content table td{
     width: 181px;
     vertical-align: middle;
-    padding: 1px 12px;
+    padding: 4px 12px;
 }
 
-.content table th{
-    background-color: #9bb2c8;
-    color: #fff;
-    text-align: center;
-    line-height: 14px;
-}
 .content table tr:last-child{
     border-bottom: 1px solid #605447;
 }
@@ -296,12 +290,20 @@ textarea .placeholder {
 .content table td:first-child{
     width: 261px;
 }
+.content table th:first-child{
+    width: 261px;
+}
 .content table tr:nth-child(odd){
     background-color: #e7e2d6;
 }
 .content table td{
-    line-height: 20px;
+    line-height: 15px;
     font-size: 12px;
+}
+.content table th{
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: normal;
 }
 .content table tr:last-child{
     border-bottom: 1px solid #605447;
