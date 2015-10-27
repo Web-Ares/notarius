@@ -719,6 +719,10 @@ input[type="tel"]{
     width: 226px;
     margin-left: 8px;
  }
+.email_contact {
+    width: 227px;
+    margin-left: 11px;
+}
 .email_textbox span{
     font-style: italic;
     font-size: 13px;
@@ -781,7 +785,7 @@ input[type="name"]{
      vertical-align: top;
      width: 62px;
      height: 62px;
-     margin-left: 16px;
+    margin-left: 12px;
  }
 .reviews__leave-feedback span{
     color: #432100;
