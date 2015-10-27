@@ -263,7 +263,7 @@ table caption{
 
 /* --------------- news__list --------------- */
 .news__list__container{
-    font-family: "PT Sans Regular","sans-serif";
+    font-family: "PT Sans","sans-serif";
     width: 774px;
     margin-bottom: 17px;
 }
@@ -313,6 +313,7 @@ table caption{
     margin-bottom: 26px;
 }
 .news__list__container p{
+    font-family: "PT Sans","sans-serif";
     letter-spacing: 0.2px;
     margin-bottom: 10px;
     line-height: 17px;
@@ -321,7 +322,7 @@ table caption{
 
 /* --------------- reviews --------------- */
 .reviews{
-    font-family: 'PT Sans Regular', sans-serif;
+    font-family: "PT Sans","sans-serif";
     width: 770px;
     margin-top: -10px;
 }
@@ -458,7 +459,7 @@ input[type="name"]{
 
 /* --------------- contacts --------------- */
 .contacts{
-    font-family: "PT Sans Regular","sans-serif";
+    font-family: "PT Sans","sans-serif";
     font-style:normal;
     margin-bottom: 45px;
 }
@@ -466,12 +467,12 @@ input[type="name"]{
     display: block;
     font-size: 14px;
     color: #432100;
-    margin-top: 25px;
 }
 .contacts strong{
     display: block;
     font-size: 18px;
-    margin-bottom: 26px;
+    margin-bottom: 24px;
+    margin-top: 2px;
 }
 .contacts div strong{
     display: inline-block;
