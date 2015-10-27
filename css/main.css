@@ -84,34 +84,73 @@
 /* --------------- /site --------------- */
 
 /* --------------- head-info --------------- */
-.head-info{
+.head-info > div,
+.head-info__address{
     position: absolute;
-    top: 48px;
+    top: 46px;
     right: 5px;
-}
-.head-info li{
-    display: inline-block;
-    vertical-align: top;
-    width: 139px;
+    width: 185px;
     padding-left: 25px;
-    background: url(../img/icons-place.png) no-repeat 0 0;
+    line-height: 20px;
+    background: url(../img/icons-place.png) no-repeat 0 2px;
 }
-.head-info li a,
-.head-info li span{
+.head-info a,
+.head-info span{
     display: block;
+    color: #8b4d11;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.head-info a:hover{
+    text-shadow: 1px 1px 0 #999;
+}
+.head-info strong{
+    color: #000;
 }
 .head-info .phone{
+    margin-bottom: 5px;
     color: #000;
     cursor: default;
+    line-height: 16px;
+}
+.head-info .phone:hover{
+    opacity: 1;
 }
 .head-info .phone strong{
+    position: relative;
+    top: 2px;
     font-size: 21px;
 }
-.head-info .mode{
-    width: 139px;
-    margin-left: 150px;
+.head-info__address{
+    right: 514px;
+    font-size: 16px;
+    font-style: normal;
+    background-image: url("../img/icons-place.png");
 }
-/* -------------- /head-info --------------- */
+.head-info__address a{
+    font-size: 14px;
+    color: #fc7c00;
+    text-decoration: underline;
+}
+.head-info .head-info__contacts{
+    right: 252px;
+}
+.head-info .head-info__callback{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fc7c00;
+    text-decoration: underline;
+}
+.head-info .head-info__mode{
+    width: 139px;
+    font-size: 16px;
+    color: #8b4d11;
+    background-image: url("../img/icons-mode.png");
+}
+.head-info .head-info__mode sup{
+    font-size: 10px;
+}
+/* -------------- /site__header --------------- */
 
 /* --------------- header__menu --------------- */
 .header__menu{
@@ -166,6 +205,11 @@
     color: #432100;
     line-height: 22px;
     text-decoration: underline;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.services a:hover{
+    opacity: .5;
 }
 .services h2{
     margin-bottom: 12px;
