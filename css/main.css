@@ -151,6 +151,9 @@
     letter-spacing: 0.2px;
     margin-bottom: 16px;
 }
+.site__content-wrap .descr-text{
+    margin-bottom: -1px;
+}
 .site__content-wrap span{
     color: #fc7c00;
 }
@@ -224,17 +227,19 @@
 .site__content-wrap ol li li:before{
     margin-right: 7px;
 }
-.site__content-wrap strong,b{
 
-}
 .site__content-wrap ul{
     padding-left: 16px;
 }
-.site__content-wrap ul li{
-
+.site__content-wrap .client-list{
+    margin-bottom: 10px;
 }
+
 .site__content-wrap ul li:before{
     content: "- ";
+}
+.site__content-wrap .cost {
+    margin-top: 27px;
 }
 .site__content-wrap table{
     margin: 10px 0 20px;
@@ -694,6 +699,10 @@ input[type="tel"]{
     width: 770px;
     margin-top: 13px;
     margin-bottom: 20px;
+}
+.reviews-service{
+    margin-top: -7px;
+    margin-bottom: 41px;
 }
 .input-textbox{
     width: 100%;
