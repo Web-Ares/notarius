@@ -654,7 +654,7 @@ input[type="tel"]{
     margin-bottom: 7px;
     margin-top: -3px;
 }
-.content-title{
+.news__list-title{
     display: block;
     font: normal 24px 'Georgia', serif;
     margin-bottom: 6px;
@@ -676,14 +676,14 @@ input[type="tel"]{
     width: 100%;
     margin-left: 0px;
 }
-.news-title{
+.content-title{
     line-height: 38px !important;
     margin-bottom: 12px !important;
 }
 /* --------------- /news__list --------------- */
 
 /* --------------- news --------------- */
-.news-img{
+.content__news-img{
     float: right;
     width: 449px;
     height: 300px;
@@ -693,7 +693,7 @@ input[type="tel"]{
 .news_time{
     margin-bottom: 26px;
 }
-.news__list__container p{
+.content__news p{
     font-family: "PT Sans","sans-serif";
     letter-spacing: 0.15px;
     margin-bottom: 7px;
