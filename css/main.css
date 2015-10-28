@@ -249,9 +249,11 @@ textarea .placeholder {
     line-height: 25px;
     margin-top: 2px;
 }
-
 .content  .list-strong li{
     font-weight: bold;
+}
+.content  .list-strong li .callback{
+    margin-left: -13px;
 }
 .content ol>li li{
     line-height: 17px;
@@ -352,7 +354,6 @@ textarea .placeholder {
     height: 85px;
     position: relative;
     margin-bottom: 18px;
-    margin-left: -13px;
     font-weight: normal;
 }
 .callback:after{
