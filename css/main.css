@@ -974,9 +974,8 @@ input[type="tel"]{
 .reviews__admin strong{
     display: block;
 }
-#map{
-    width: 770px;
-    height: 371px
+.map{
+
 }
 /* --------------- /reviews --------------- */
 
@@ -984,26 +983,26 @@ input[type="tel"]{
 .contacts{
     font-family: "PT Sans","sans-serif";
     font-style:normal;
-    margin-bottom: 26px;
+    margin-bottom: 37px;
     margin-top: -4px;
 }
-.contacts span{
-    display: block;
+.contacts a:hover{
+    text-decoration: none;
+}
+.contacts dt{
     font-size: 14px;
     color: #432100;
     margin-bottom: 4px;
 }
-.contacts strong{
+.contacts dd{
     display: block;
-    font-size: 18px;
     margin-bottom: 22px;
 }
-.contacts div strong{
-    display: inline-block;
+.contacts strong{
     font-size: 18px;
-    margin-top: 2px;
 }
-.contacts div span{
-    margin-bottom: -5px;
+.map__wrap {
+    width: 770px;
+    height: 371px
 }
 /* --------------- /contacts --------------- */
