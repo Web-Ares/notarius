@@ -352,6 +352,8 @@ textarea .placeholder {
     position: relative;
     margin-bottom: 18px;
     font-weight: normal;
+    position: relative;
+
 }
 .callback:after{
     content: "";
@@ -359,6 +361,7 @@ textarea .placeholder {
     width: 770px;
     height: 16px;
     bottom: -8px;
+    left: 0;
     background: url("../img/table-line.png");
 }
 .callback span{
