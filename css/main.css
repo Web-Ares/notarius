@@ -153,6 +153,10 @@ textarea .placeholder {
 .site__footer-info address{
     font-style: normal;
 }
+.site__footer-info address a{
+    color: #432100;
+    cursor: default;
+}
 .site__footer-phone{
     margin: 9px 0 8px;
 }
@@ -432,8 +436,7 @@ textarea .placeholder {
 /* --------------- /callback --------------- */
 
 /* --------------- head-info --------------- */
-.head-info > div,
-.head-info__address{
+.head-info > div{
     position: absolute;
     top: 46px;
     right: 6px;
@@ -466,7 +469,7 @@ textarea .placeholder {
     top: 2px;
     font-size: 21px;
 }
-.head-info__address{
+.head-info .head-info__address{
     right: 516px;
     font-size: 16px;
     font-style: normal;
@@ -477,6 +480,12 @@ textarea .placeholder {
     font-size: 14px;
     color: #fc7c00;
     text-decoration: underline;
+}
+.head-info__address address{
+    font-style: normal;
+}
+.head-info__address address a{
+    cursor: default;
 }
 .head-info .head-info__contacts{
     right: 254px;

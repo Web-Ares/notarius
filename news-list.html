@@ -18,19 +18,23 @@
     <!-- site__header -->
     <header class="site__header">
         <!-- logo -->
-        <a href="#" class="logo">
+        <h1 class="logo">
             <img src="img/logo.png" alt="Нотариус Фатихова Людмила Михайловна"/>
-        </a>
+        </h1>
         <!-- /logo -->
 
         <!-- head-info -->
         <div class="head-info">
             <!-- head-info__address -->
-            <address class="head-info__address">
-                <span>г. Уфа,</span>
-                <span><strong>ул. Советская, 25</strong></span>
+            <div class="head-info__address">
+                <address>
+                    <a target="_blank" href="https://www.google.com/maps/place/ул.+Советская,+22,+Уфа,+Респ.+Башкортостан,+Росія,+450077">
+                        <span>г. Уфа,</span>
+                        <span><strong>ул. Советская, 25</strong></span>
+                    </a>
+                </address>
                 <a href="#">Схема проезда</a>
-            </address>
+            </div>
             <!-- /head-info__address -->
             <!-- head-info__contacts -->
             <div class="head-info__contacts">
@@ -52,7 +56,7 @@
         <!-- head-info -->
 
         <!-- head-menu -->
-        <nav class="head-menu">
+        <nav class="head-menu head-menu_index">
             <ul>
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">Услуги</a></li>
@@ -62,6 +66,26 @@
             </ul>
         </nav>
         <!-- head-menu -->
+
+        <!-- swiper-container -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- swiper-slide -->
+                <div class="swiper-slide" style="background-image: url('pic/slide-001.jpg')">
+                    <!-- swiper__content -->
+                    <div class="swiper__content">
+                        <h2>Нотариус — </h2>представитель публичной власти, удостоверяющий подлинность документа
+                    </div>
+                    <!-- /swiper__content -->
+                </div>
+                <!-- /swiper-slide -->
+            </div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- /Add Navigation -->
+        </div>
+        <!-- swiper-container -->
     </header>
     <!-- /site__header -->
 
@@ -229,21 +253,21 @@
             <!-- site__footer-info -->
             <div class="site__footer-info">
                 <div>© 2015.</div>
-                <div>Нотариус Фатихова Людмила Михайловна.</div>
+                <div>Нотариус Фатихова Людмила Михайловна.</div>
                 <!-- phone -->
                 <div class="site__footer-phone">Тел. <a href="tel:3472222222">(347) 222-22-22</a>.</div>
                 <!-- /phone -->
-                <address>г. Уфа, ул. Советская, 22.</address>
+                <address><a target="_blank"  href="https://www.google.com/maps/place/ул.+Советская,+22,+Уфа,+Респ.+Башкортостан,+Росія,+450077">г. Уфа, ул. Советская, 22.</a></address>
             </div>
             <!-- /site__footer-info -->
             <!-- site__footer-copyright -->
             <div class="site__footer-copyright">
-                Разработка сайта —«<a href="#">Экспресс лаб</a>»
+                Разработка сайта — «<a href="#">Экспресс лаб</a>»
             </div>
             <!-- site__footer-copyright -->
-            <a href="#"  class="site__footer-logo">
-                <img src="img/logo.png" alt="logo"/>
-            </a>
+            <div class="site__footer-logo">
+                <img src="img/logo.png" alt="Нотариус Фатихова Людмила Михайловна"/>
+            </div>
         </div>
         <!-- /site__footer-layout -->
     </footer>
