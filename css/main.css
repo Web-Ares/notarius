@@ -97,6 +97,18 @@ textarea .placeholder {
     width: 1000px;
     margin: 0 auto 30px;
 }
+.site__aside {
+    float: left;
+    width: 180px;
+    margin-top: -9px;
+    margin-right: 30px;
+}
+.site__last-news{
+     padding-top: 24px;
+     padding-left: 17px;
+     border-top: 1px solid #8b4d11;
+     overflow: hidden;
+ }
 .site__footer {
     z-index: 2;
     position: absolute;
@@ -475,10 +487,6 @@ input[type="tel"]{
 
 /* --------------- navigation-services --------------- */
 .navigation-services{
-    float: left;
-    width: 180px;
-    margin-top: -9px;
-    margin-right: 30px;
     padding-left: 19px;
     font-size: 18px;
 }
@@ -574,15 +582,16 @@ input[type="tel"]{
     width: 175px;
     margin-right: 20px;
     margin-bottom: 4px;
+    border-radius: 0 0 5px 5px;
     overflow: hidden;
     text-align: center;
     vertical-align: top;
+    transition: box-shadow .3s ease;
+    -webkit-transition: box-shadow .3s ease;
 }
-.service__img{
-    margin-bottom: 2px;
-}
-.service__img img{
+.service__item img{
     display: block;
+    margin-bottom: 6px;
 }
 .service__item a{
     text-decoration: none;
@@ -590,25 +599,16 @@ input[type="tel"]{
 .service__item a span{
     display: block;
     height: 57px;
-    margin: 0 -1px;
     font: 16px 'Georgia', sans-serif;
     color: #432100;
     text-decoration: none;
-    transition: opacity .3s ease;
-    -webkit-transition: opacity .3s ease;
 }
-.service__item a span:hover{
-    opacity: .7;
+.service__item:hover{
+    box-shadow: 0 0 5px #999;
 }
 /* --------------- /service --------------- */
 
 /* --------------- last-news --------------- */
-.last-news{
-    padding-top: 24px;
-    padding-left: 17px;
-    border-top: 1px solid #8b4d11;
-    overflow: hidden;
-}
 .last-news h2{
     display: inline-block;
     margin-right: 12px;
@@ -627,19 +627,18 @@ input[type="tel"]{
     width: 25%;
     line-height: 14px;
 }
-.last-news__img{
-    margin-bottom: 5px;
-}
-.last-news__img img{
-    display: block;
-}
 .last-news__info{
     float: left;
-    max-width: 75px;
-    margin-right: 13px;
-    padding-top: 5px;
+    max-width: 88px;
+}
+.last-news__info img{
+    width: 75px;
+    display: block;
+    margin: 5px 13px 5px 0;
 }
 .last-news__date{
+    display: block;
+    width: 75px;
     font-size: 12px;
     color: #8b4d11;
 }
@@ -648,9 +647,12 @@ input[type="tel"]{
     line-height: 17px;
     overflow: hidden;
 }
-.last-news__content a{
+.last-news__content span{
     color: #432100;
     text-decoration: underline;
+}
+.last-news__item:hover span{
+    text-decoration: none;
 }
 /* --------------- /last-news --------------- */
 
