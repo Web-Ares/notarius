@@ -170,11 +170,9 @@ textarea .placeholder {
 .site__footer-copyright a{
     color: #432100;
     text-decoration: underline;
-    transition: opacity .3s ease;
-    -webkit-transition: opacity .3s ease;
 }
 .site__footer-copyright a:hover{
-    opacity: .7;
+    text-decoration: none;
 }
 
 /* --------------- /site --------------- */
@@ -368,7 +366,7 @@ textarea .placeholder {
     -webkit-transition: opacity .3s ease;
 }
 .head-info a:hover{
-    text-shadow: 1px 1px 0 #fff;
+    text-decoration: none;
 }
 .head-info strong{
     color: #000;
@@ -378,9 +376,6 @@ textarea .placeholder {
     color: #000;
     cursor: default;
     line-height: 16px;
-}
-.head-info .phone:hover{
-    text-shadow: none;
 }
 .head-info .phone strong{
     position: relative;
@@ -422,6 +417,7 @@ textarea .placeholder {
 
 /* --------------- logo --------------- */
 .logo {
+    display: block;
     margin-left: 19px;
     margin-bottom: 16px;
 }
