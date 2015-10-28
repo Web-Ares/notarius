@@ -251,9 +251,7 @@ textarea .placeholder {
     line-height: 25px;
     margin-top: 2px;
 }
-.content  .list-strong li{
-    font-weight: bold;
-}
+
 .content  .list-strong li .callback{
     margin-left: -13px;
 }
@@ -369,7 +367,7 @@ textarea .placeholder {
 .callback span{
     color: #432100;
 }
-.callback-title{
+.callback__title{
     display: inline-block;
     width: 220px;
     height: 62px;
@@ -381,7 +379,7 @@ textarea .placeholder {
     vertical-align: top;
     line-height: 29px;
 }
-.callback-name{
+.callback__name{
     display: inline-block;
     height: 62px;
     width: 210px;
@@ -395,7 +393,7 @@ textarea .placeholder {
     border: none;
     vertical-align: top;
 }
-.callback-email{
+.callback__email{
     width: 226px;
     margin-left: 11px;
 }
@@ -419,7 +417,7 @@ textarea .placeholder {
 .callback .button-ok:hover{
     background:rgba(0,0,0,.3);
 }
-.callback .input-name{
+.callback__input{
     width: 100%;
     height: 33px;
     background: #f6f4ef;
@@ -617,6 +615,10 @@ input[type="tel"]{
 }
 .breadcrumbs a{
     position: relative;
+    margin-top: 3px;
+    font-size: 14px;
+    color: #432100;
+    text-decoration: underline;
 }
 .breadcrumbs a:after{
     content: '>';
@@ -625,6 +627,7 @@ input[type="tel"]{
 }
 .breadcrumbs span{
     padding-left: 17px;
+    color: #fc7c00;
 }
 /* --------------- /breadcrumbs --------------- */
 
