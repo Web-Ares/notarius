@@ -447,6 +447,7 @@ textarea .placeholder {
     width: 100%;
     background: #f6f4ef;
     border: none;
+    box-shadow: none;
 }
 /* --------------- /callback --------------- */
 
