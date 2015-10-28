@@ -793,7 +793,6 @@ input[type="tel"]{
 
 /* --------------- news --------------- */
 .content-title{
-    margin-top: -14px;
     line-height: 38px !important;
     margin-bottom: 12px !important;
 }
