@@ -153,10 +153,6 @@ textarea .placeholder {
 .site__footer-info address{
     font-style: normal;
 }
-.site__footer-info address a{
-    color: #432100;
-    cursor: default;
-}
 .site__footer-phone{
     margin: 9px 0 8px;
 }
@@ -202,7 +198,9 @@ textarea .placeholder {
     letter-spacing: 0.2px;
     margin-bottom: 16px;
 }
-
+.content .descr-text{
+    margin-bottom: -1px;
+}
 .content span{
     color: #fc7c00;
 }
@@ -273,6 +271,9 @@ textarea .placeholder {
     padding-left: 16px;
     margin-bottom: 11px;
 }
+.content .client-list{
+    margin-bottom: 10px;
+}
 
 
 .content ul li:before{
@@ -336,9 +337,6 @@ textarea .placeholder {
 .content .supports{
     margin-bottom: 9px;
 }
-.content ol .callback{
-    margin-left: -13px;
-}
 /* --------------- /content --------------- */
 
 /* --------------- callback --------------- */
@@ -361,7 +359,6 @@ textarea .placeholder {
     width: 770px;
     height: 16px;
     bottom: -8px;
-    left: 0;
     background: url("../img/table-line.png");
 }
 .callback span{
@@ -394,21 +391,10 @@ textarea .placeholder {
     vertical-align: top;
 }
 .callback__email{
-    display: inline-block;
-    height: 62px;
-    border-radius: 3px;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    padding: 2px 7px 7px 7px;
-    background: #f6f4ef;
-    border: none;
-    vertical-align: top;
     width: 226px;
     margin-left: 11px;
 }
-
-     .callback__button{
+.callback .button-ok{
     height: 63px;
     width: 62px;
     border-radius: 3px;
@@ -425,7 +411,7 @@ textarea .placeholder {
     display: inline-block;
 }
 
-.callback__button:hover{
+.callback .button-ok:hover{
     background:rgba(0,0,0,.3);
 }
 .callback__input{
@@ -446,7 +432,8 @@ textarea .placeholder {
 /* --------------- /callback --------------- */
 
 /* --------------- head-info --------------- */
-.head-info > div{
+.head-info > div,
+.head-info__address{
     position: absolute;
     top: 46px;
     right: 6px;
@@ -479,7 +466,7 @@ textarea .placeholder {
     top: 2px;
     font-size: 21px;
 }
-.head-info .head-info__address{
+.head-info__address{
     right: 516px;
     font-size: 16px;
     font-style: normal;
@@ -490,12 +477,6 @@ textarea .placeholder {
     font-size: 14px;
     color: #fc7c00;
     text-decoration: underline;
-}
-.head-info__address address{
-    font-style: normal;
-}
-.head-info__address address a{
-    cursor: default;
 }
 .head-info .head-info__contacts{
     right: 254px;
@@ -847,15 +828,10 @@ input[type="tel"]{
 .reviews__admin{
     margin-bottom: 33px;
 }
-.reviews__admin-img{
+.reviews__admin p img{
     position: relative;
-    float: left;
-    top: 14px;
     left: 19px;
     margin-right: 29px;
-}
-.reviews__admin-comment{
-    overflow: hidden;
 }
 .reviews__add{
     font-family: "Georgia","sans-serif";
@@ -863,7 +839,6 @@ input[type="tel"]{
     background-color: #ede9e0;
     padding-top: 13px;
     padding-bottom: 1px;
-    margin-top: 20px;
     border-radius: 3px;
 }
 .reviews__add:after{
@@ -874,14 +849,14 @@ input[type="tel"]{
     bottom: -8px;
     background: url("../img/table-line.png");
 }
-.add__textbox .name-input{
+.add__our-name .name-input{
     width: 100%;
     height: 33px;
     background: #f6f4ef;
     border: none;
     font-size: 14px;
 }
-.add__textbox{
+.add__our-name{
     display: inline-block;
     height: 62px;
     width: 210px;
@@ -895,15 +870,15 @@ input[type="tel"]{
     border: none;
     vertical-align: top;
 }
-.add__textbox-email{
+.add__our-email{
     width:305px;
     margin-left: 11px;
 }
-.add__textbox span{
+.add__our-name span{
     font-style: italic;
     font-size: 13px;
 }
-.add__textbox-email .email-input{
+.add__our-email .email-input{
     width: 100%;
     background: #f6f4ef;
     border: none;
