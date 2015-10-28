@@ -341,6 +341,9 @@ textarea .placeholder {
 .content .supports{
     margin-bottom: 9px;
 }
+.content ol .callback{
+    margin-left: -13px;
+}
 /* --------------- /content --------------- */
 
 /* --------------- callback --------------- */
@@ -363,6 +366,7 @@ textarea .placeholder {
     width: 770px;
     height: 16px;
     bottom: -8px;
+    left: 0;
     background: url("../img/table-line.png");
 }
 .callback span{
@@ -395,10 +399,21 @@ textarea .placeholder {
     vertical-align: top;
 }
 .callback__email{
+    display: inline-block;
+    height: 62px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 2px 7px 7px 7px;
+    background: #f6f4ef;
+    border: none;
+    vertical-align: top;
     width: 226px;
     margin-left: 11px;
 }
-.callback .button-ok{
+
+.callback__button{
     height: 63px;
     width: 62px;
     border-radius: 3px;
@@ -415,7 +430,7 @@ textarea .placeholder {
     display: inline-block;
 }
 
-.callback .button-ok:hover{
+.callback .button:hover{
     background:rgba(0,0,0,.3);
 }
 .callback__input{
