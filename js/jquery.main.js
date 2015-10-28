@@ -5,8 +5,8 @@
             ymaps.ready(init); // Ожидание загрузки API с сервера Яндекса
             function init () {
                 myMap = new ymaps.Map("map", {
-                    center: [55.76, 37.64], // Координаты центра карты
-                    zoom: 10 // Zoom
+                    center: [54.7231404, 55.9456225], // Координаты центра карты
+                    zoom: 17 // Zoom
                 });
             }
         });

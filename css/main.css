@@ -811,21 +811,18 @@ input[type="tel"]{
 /* --------------- /news__item --------------- */
 
 /* --------------- news --------------- */
-.content-title{
+.news-title{
     line-height: 38px !important;
     margin-bottom: 12px !important;
 }
-.news-img{
-    float: right;
-    width: 449px;
-    height: 300px;
+.news__content p img{
     margin-left: 32px;
     margin-bottom: 22px;
 }
 .news_time{
     margin-bottom: 26px;
 }
-.news p{
+.news__content p{
     font-family: "PT Sans","sans-serif";
     letter-spacing: 0.15px;
     margin-bottom: 7px;
@@ -971,6 +968,10 @@ input[type="tel"]{
 }
 .reviews__admin strong{
     display: block;
+}
+#map{
+    width: 770px;
+    height: 371px
 }
 /* --------------- /reviews --------------- */
 
