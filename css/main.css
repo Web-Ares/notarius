@@ -10,19 +10,34 @@
 
     placeholder
 
-    fonts
-
     site
 
-    news
+    content
+
+    head-info
+
+    logo
+
+    head-menu
+
+    navigation-services
+
+    breadcrumbs
+
+    swiper-container
+
+    service
+
+    last-news
 
     news__list
+
+    content__news
 
     reviews
 
     contacts
 
-    logo
 */
 
 /* --------------- placeholder --------------- */
@@ -44,9 +59,6 @@
     letter-spacing: 1.4px;
     word-spacing: -5px;
 }
-/* --------------- /placeholder --------------- */
-
-/* --------------- placeholder --------------- */
 textarea::-webkit-input-placeholder {
     color: #605447;
     font: 14px 'PT Sans', sans-serif;
@@ -569,7 +581,7 @@ input[type="tel"]{
     height: 52px;
     background: url("../img/menu-active.jpg") no-repeat center/100% 100% #8b7158;
 }
-/* --------------- head-menu --------------- */
+/* --------------- /head-menu --------------- */
 
 /* --------------- navigation-services --------------- */
 .navigation-services{
