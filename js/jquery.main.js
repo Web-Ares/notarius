@@ -6,7 +6,7 @@
 
             function init () {
                 myMap = new ymaps.Map('map', {
-                    center: $('.map__item').eq(0).attr('data-coord').split(', '),
+                    center: $('.map').attr('data-coord').split(', '),
                     zoom: 12
                 });
 
