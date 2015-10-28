@@ -21,7 +21,7 @@
     <header class="site__header">
         <!-- logo -->
         <h1 class="logo">
-            <img src="img/logo.png" width="" height="" alt="">
+            <img src="img/logo.png" alt="Нотариус Фатихова Людмила Михайловна"/>
         </h1>
         <!-- /logo -->
 
@@ -56,10 +56,10 @@
         <!-- head-menu -->
         <nav class="head-menu">
             <ul>
-                <li ><a href="#">Главная</a></li>
-                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Главная</a></li>
+                <li class="active"><a href="#">Услуги</a></li>
                 <li><a href="#">Отзывы</a></li>
-                <li class="active"><a href="#">О компании</a></li>
+                <li><a href="#">О компании</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
         </nav>
@@ -70,20 +70,23 @@
 
     <!-- site__content -->
     <div class="site__content">
-        <!-- aside -->
-        <aside class="services">
-            <h2>Услуги</h2>
-            <a href="#">Юридическим лицам</a>
-            <a href="#">Гражданам</a>
-            <a href="#">Удостоверение договоров купли-продажи, мены, дарения на квартиры, дома, земельные участки и др.</a>
-            <a href="#">Оформление наследства</a>
-            <a href="#">Выезд нотариуса на дом, в офис</a>
-            <a href="#">Записаться на прием</a>
+
+        <!-- navigation-services -->
+        <aside class="site__aside">
+            <section class="navigation-services">
+                <h2>Услуги</h2>
+                <a href="#">Юридическим лицам</a>
+                <a href="#">Гражданам</a>
+                <a href="#">Удостоверение договоров купли-продажи, мены, дарения на квартиры, дома, земельные участки и др.</a>
+                <a href="#">Оформление наследства</a>
+                <a href="#">Выезд нотариуса на дом, в офис</a>
+                <a href="#">Записаться на прием</a>
+            </section>
         </aside>
-        <!-- /aside -->
+        <!-- /navigation-services -->
 
         <!--content-->
-        <div class="site__content-wrap">
+        <div class="content">
 
             <!--breadcrumbs-->
             <div class="breadcrumbs">
@@ -91,22 +94,25 @@
             </div>
             <!--/breadcrumbs-->
 
-            <!-- reviews__leave-feedback -->
-            <form class="reviews__leave-feedback reviews-about reviews-service">
-                <span class="form-title about-title">Заказать звонок нотариуса</span>
+            <!--callback-->
+            <form class="callback">
 
-                <div class="textbox">
+                <span class="callback-title">Заказать звонок нотариуса</span>
+
+                <div class="callback-name">
                     <label for="name">Ваше имя</label>
-                    <input id="name" placeholder="" class="input-textbox" required />
+                    <input id="name" placeholder="" class="input-name" required />
                 </div>
 
-                <div class="textbox email_textbox contact email_contact">
+                <div class=" callback-name callback-email">
                     <label for="phone">Телефон</label>
-                    <input id=phone name="phone" placeholder="+7 ( .  .  . ) .  .  . – .  . – .  . " class="email_input-textbox" type="tel" required />
+                    <input id="phone" placeholder="+7 ( ___ ) ___ - __ - __ " class="input-phone" type="tel" required />
                 </div>
-                <input name="submit" class="button button_ok" type="submit" value="OK" />
+
+                <input name="submit" class="button-ok" type="submit" value="OK" />
+
             </form>
-            <!-- /reviews__leave-feedback -->
+            <!--/callback-->
 
             <h1>Услуги нотариуса</h1>
             <p class="descr-text">В Российской Федерации деятельность нотариальных контор регулируется на законодательном уровне.
@@ -160,7 +166,7 @@
             <!-- site__footer-info -->
             <div class="site__footer-info">
                 <div>© 2015.</div>
-                <div>Нотариус Фатихова Людмила Михайловна.</div>
+                <div>Нотариус Фатихова Людмила Михайловна.</div>
                 <!-- phone -->
                 <div class="site__footer-phone">Тел. <a href="tel:3472222222">(347) 222-22-22</a>.</div>
                 <!-- /phone -->
@@ -169,12 +175,12 @@
             <!-- /site__footer-info -->
             <!-- site__footer-copyright -->
             <div class="site__footer-copyright">
-                Разработка сайта —«<a href="#">Экспресс лаб</a>»
+                Разработка сайта — «<a href="#">Экспресс лаб</a>»
             </div>
             <!-- site__footer-copyright -->
-            <a href="#">
-                <img src="img/logo.png" alt="logo"/>
-            </a>
+            <div class="site__footer-logo">
+                <img src="img/logo.png" alt="Нотариус Фатихова Людмила Михайловна"/>
+            </div>
         </div>
         <!-- /site__footer-layout -->
     </footer>
@@ -190,6 +196,12 @@
 
 </body>
 </html>
+
+
+
+
+
+
 
 
 
