@@ -115,7 +115,7 @@ textarea .placeholder {
     margin-top: -9px;
     margin-right: 30px;
 }
-.site__last-news{
+.site__additionally{
      padding-top: 24px;
      padding-left: 17px;
      border-top: 1px solid #8b4d11;
@@ -174,7 +174,6 @@ textarea .placeholder {
 .site__footer-copyright a:hover{
     text-decoration: none;
 }
-
 /* --------------- /site --------------- */
 
 /* --------------- content --------------- */
@@ -473,7 +472,7 @@ textarea .placeholder {
     font-style: normal;
     line-height: 19px;
 }
-.head-info__address a{
+.head-info__address > a{
     margin-top: 3px;
     font-size: 14px;
     color: #fc7c00;
@@ -590,11 +589,9 @@ input[type="tel"]{
     color: #432100;
     line-height: 22px;
     text-decoration: underline;
-    transition: opacity .3s ease;
-    -webkit-transition: opacity .3s ease;
 }
 .navigation-services a:hover{
-    opacity: .5;
+    text-decoration: none;
 }
 .navigation-services h2{
     margin-bottom: 12px;
@@ -676,16 +673,29 @@ input[type="tel"]{
     margin-bottom: 27px;
 }
 .service__item{
+    position: relative;
     display: inline-block;
     width: 175px;
+    height: 183px;
     margin-right: 20px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     border-radius: 0 0 5px 5px;
-    overflow: hidden;
     text-align: center;
     vertical-align: top;
+}
+.service__item a{
     transition: box-shadow .3s ease;
     -webkit-transition: box-shadow .3s ease;
+}
+.service__item:hover a{
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: -4px;
+    padding: 3px 4px;
+    width: 183px;
+    height: 189px;
+    box-shadow: 0 0 5px #999;
 }
 .service__item img{
     display: block;
@@ -702,7 +712,6 @@ input[type="tel"]{
     text-decoration: none;
 }
 .service__item:hover{
-    box-shadow: 0 0 5px #999;
 }
 /* --------------- /service --------------- */
 
