@@ -425,7 +425,7 @@ textarea .placeholder {
     display: inline-block;
 }
 
-.callback .button:hover{
+.callback__button:hover{
     background:rgba(0,0,0,.3);
 }
 .callback__input{
