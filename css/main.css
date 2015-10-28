@@ -30,7 +30,7 @@
 
     last-news
 
-    news__list
+    news__item
 
     content__news
 
@@ -811,24 +811,24 @@ input[type="tel"]{
 .reviews__user{
     background-color: #ede9e0;
     padding: 8px 19px 10px 20px;
+    margin-bottom: -6px;
 }
-.reviews__user p{
+.reviews p{
     letter-spacing: 0.18px;
     margin-bottom: 0;
 }
 .reviews__admin{
-    margin-bottom: 16px;
+    margin-bottom: 33px;
 }
 .reviews__admin-img{
     position: relative;
     float: left;
-    top: 7px;
+    top: 14px;
     left: 19px;
     margin-right: 29px;
 }
 .reviews__admin-comment{
     overflow: hidden;
-    padding-top: 6px;
 }
 .reviews__add{
     font-family: "Georgia","sans-serif";
