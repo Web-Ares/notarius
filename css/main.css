@@ -792,15 +792,19 @@ input[type="tel"]{
 /* --------------- /news__item --------------- */
 
 /* --------------- news --------------- */
-.news-title{
+.news h1{
     line-height: 38px !important;
     margin-bottom: 12px !important;
 }
-.news__content p img{
+.news__content img{
     margin-left: 32px;
     margin-bottom: 22px;
 }
-.news_time{
+.news time{
+    display: block;
+    color: #8b4d11;
+    font-size: 12px;
+    margin-top: -3px;
     margin-bottom: 26px;
 }
 .news__content p{
@@ -828,7 +832,7 @@ input[type="tel"]{
 .reviews__admin{
     margin-bottom: 33px;
 }
-.reviews__admin p img{
+.reviews__admin img{
     position: relative;
     left: 19px;
     margin-right: 29px;
@@ -849,14 +853,14 @@ input[type="tel"]{
     bottom: -8px;
     background: url("../img/table-line.png");
 }
-.add__our-name .name-input{
+.add__our__name .name-input{
     width: 100%;
     height: 33px;
     background: #f6f4ef;
     border: none;
     font-size: 14px;
 }
-.add__our-name{
+.add__our__name{
     display: inline-block;
     height: 62px;
     width: 210px;
@@ -870,20 +874,20 @@ input[type="tel"]{
     border: none;
     vertical-align: top;
 }
-.add__our-email{
+.add__our_email{
     width:305px;
     margin-left: 11px;
 }
-.add__our-name span{
+.add__our__name span{
     font-style: italic;
     font-size: 13px;
 }
-.add__our-email .email-input{
+.add__our_email .email-input{
     width: 100%;
     background: #f6f4ef;
     border: none;
 }
-.reviews__add-message{
+.reviews__add__message{
     background: #f6f4ef;
     width: 740px;
     height: 214px;
@@ -906,11 +910,11 @@ input[type="tel"]{
     font-size:14px;
     padding: 7px;
 }
-.reviews__add-message:focus,
+.reviews__add__message:focus,
 .add__textbox:focus{
     outline:none;
 }
-.reviews__add-button{
+.reviews__add__button{
     display: block;
     height: 63px;
     width: 62px;
@@ -926,13 +930,13 @@ input[type="tel"]{
     cursor: pointer;
     margin: 15px auto;
 }
-.reviews__add-button:hover{
+.reviews__add__button:hover{
     background:rgba(0,0,0,.3);
 }
 .reviews__add span{
     color: #432100;
 }
-.reviews__add-title{
+.reviews__add__title{
     display: inline-block;
     width: 220px;
     height: 62px;
