@@ -789,33 +789,38 @@ input[type="tel"]{
 }
 /* --------------- /last-news --------------- */
 
-/* --------------- news__item --------------- */
-.news__item__content-time{
+/* --------------- news-list --------------- */
+.news-list__content{
+    min-height: 155px;
+}
+.news-list time{
     display: block;
     color: #8b4d11;
     font-size: 12px;
     margin-bottom: 6px;
     margin-top: -3px;
 }
-.news__item__content-title{
+.news-list__content a{
     display: block;
     font: normal 24px 'Georgia', serif;
     margin-bottom: 6px;
     letter-spacing: 0.1px;
+
 }
-.news__item-img{
-    float: left;
+.news-list a img{
     margin-right: 22px;
+    width: 170px;
+    height: 117px;
 }
-.news__item__content{
+.news-list__content{
     margin-bottom: 12px;
     overflow: hidden;
 }
-.news__item__content p{
+.news-list__content p{
     line-height: 17px;
     font-family: "PT Sans","sans-serif";
 }
-/* --------------- /news__item --------------- */
+/* --------------- /news-list --------------- */
 
 /* --------------- news --------------- */
 .news h1{
