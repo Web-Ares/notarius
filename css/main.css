@@ -10,19 +10,34 @@
 
     placeholder
 
-    fonts
-
     site
 
-    news
+    content
+
+    head-info
+
+    logo
+
+    head-menu
+
+    navigation-services
+
+    breadcrumbs
+
+    swiper-container
+
+    service
+
+    last-news
 
     news__list
+
+    content__news
 
     reviews
 
     contacts
 
-    logo
 */
 
 /* --------------- placeholder --------------- */
@@ -44,9 +59,6 @@
     letter-spacing: 1.4px;
     word-spacing: -5px;
 }
-/* --------------- /placeholder --------------- */
-
-/* --------------- placeholder --------------- */
 textarea::-webkit-input-placeholder {
     color: #605447;
     font: 14px 'PT Sans', sans-serif;
@@ -570,7 +582,7 @@ input[type="tel"]{
     height: 52px;
     background: url("../img/menu-active.jpg") no-repeat center/100% 100% #8b7158;
 }
-/* --------------- head-menu --------------- */
+/* --------------- /head-menu --------------- */
 
 /* --------------- navigation-services --------------- */
 .navigation-services{
@@ -743,103 +755,86 @@ input[type="tel"]{
 }
 /* --------------- /last-news --------------- */
 
-/* --------------- news__list --------------- */
-.content__news-list{
-
-}
-.content__news-list-time{
+/* --------------- news__item --------------- */
+.news__item__content-time{
     display: block;
     color: #8b4d11;
     font-size: 12px;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
     margin-top: -3px;
 }
-.content__news-list-title{
+.news__item__content-title{
     display: block;
     font: normal 24px 'Georgia', serif;
     margin-bottom: 6px;
     letter-spacing: 0.1px;
 }
-.content__news-list-img{
-    display: inline-block;
-    width: 175px;
-    height: 117px;
-    vertical-align: top;
+.news__item-img{
+    float: left;
+    margin-right: 22px;
 }
-.content__news-list-item{
-    display: inline-block;
-    width: 573px;
-    vertical-align: top;
-    margin-left: 17px;
+.news__item__content{
     margin-bottom: 12px;
+    overflow: hidden;
 }
-.content__news-list-item p{
+.news__item__content p{
     line-height: 17px;
     font-family: "PT Sans","sans-serif";
 }
-.content__news-list_without-img{
-    width: 100%;
-    margin-left: 0px;
-}
-/* --------------- /news__list --------------- */
+/* --------------- /news__item --------------- */
 
-/* --------------- content__news --------------- */
+/* --------------- news --------------- */
 .content-title{
     margin-top: -14px;
     line-height: 38px !important;
     margin-bottom: 12px !important;
 }
-.content__news-img{
+.news-img{
     float: right;
     width: 449px;
     height: 300px;
     margin-left: 32px;
     margin-bottom: 22px;
 }
-.content__news_time{
+.news_time{
     margin-bottom: 26px;
 }
-.content__news p{
+.news p{
     font-family: "PT Sans","sans-serif";
     letter-spacing: 0.15px;
     margin-bottom: 7px;
     line-height: 17px;
 }
-/* --------------- /content__news --------------- */
+/* --------------- news --------------- */
 
 /* --------------- reviews --------------- */
-.content__reviews{
+.reviews{
     font-family: 'PT Sans', sans-serif;
-    width: 770px;
     margin-top: -10px;
 }
-.content__reviews__user{
+.reviews__user{
     background-color: #ede9e0;
     padding: 8px 19px 10px 20px;
 }
-.content__reviews__user p{
+.reviews__user p{
     letter-spacing: 0.18px;
     margin-bottom: 0;
 }
-.content__reviews__admin{
-    width: 100%;
+.reviews__admin{
     margin-bottom: 16px;
 }
-.content__reviews__admin-img{
+.reviews__admin-img{
     position: relative;
-    display: inline-block;
-    width: 45px;
-    height: 50px;
-    top: 1px;
+    float: left;
+    top: 7px;
     left: 19px;
+    margin-right: 29px;
 }
-.content__reviews__admin-comment{
-    display: inline-block;
-    width: 693px;
-    margin-left: 25px;
+.reviews__admin-comment{
+    overflow: hidden;
     padding-top: 6px;
 }
-.content__reviews__leave-feedback{
+.reviews__add{
     font-family: "Georgia","sans-serif";
     width: 100%;
     background-color: #ede9e0;
@@ -848,7 +843,7 @@ input[type="tel"]{
     margin-top: 20px;
     border-radius: 3px;
 }
-.content__reviews__leave-feedback:after{
+.reviews__add:after{
     content: "";
     position: absolute;
     width: 770px;
@@ -856,41 +851,41 @@ input[type="tel"]{
     bottom: -8px;
     background: url("../img/table-line.png");
 }
-.input-textbox{
+.add__textbox .name-input{
     width: 100%;
     height: 33px;
     background: #f6f4ef;
     border: none;
     font-size: 14px;
 }
-.textbox{
+.add__textbox{
     display: inline-block;
     height: 62px;
     width: 210px;
     border-radius: 3px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    padding: 2px 7px 7px 7px;
+    font-size: 13px;
+    padding: 5px 7px 7px 7px;
     background: #f6f4ef;
     margin-left: 26px;
     border: none;
     vertical-align: top;
 }
-.email_textbox{
+.add__textbox-email{
     width:305px;
     margin-left: 11px;
 }
-.email_textbox span{
+.add__textbox span{
     font-style: italic;
     font-size: 13px;
 }
-.email_input-textbox{
+.add__textbox-email .email-input{
     width: 100%;
     background: #f6f4ef;
     border: none;
 }
-.message{
+.reviews__add-message{
     background: #f6f4ef;
     width: 740px;
     height: 214px;
@@ -905,19 +900,19 @@ input[type="tel"]{
     overflow: hidden;
     margin: 13px auto;
 }
-.content__reviews__leave-feedback input[type="email"]{
+.reviews__add input[type="email"]{
     font-size:14px;
     padding: 7px;
 }
-.content__reviews__leave-feedback input[type="name"]{
+.reviews__add input[type="name"]{
     font-size:14px;
     padding: 7px;
 }
-.message:focus,
-.textbox:focus{
+.reviews__add-message:focus,
+.add__textbox:focus{
     outline:none;
 }
-.button{
+.reviews__add-button{
     display: block;
     height: 63px;
     width: 62px;
@@ -933,13 +928,13 @@ input[type="tel"]{
     cursor: pointer;
     margin: 15px auto;
 }
-.button:hover{
+.reviews__add-button:hover{
     background:rgba(0,0,0,.3);
 }
-.content__reviews__leave-feedback span{
+.reviews__add span{
     color: #432100;
 }
-.leave-feedback-title{
+.reviews__add-title{
     display: inline-block;
     width: 220px;
     height: 62px;
@@ -948,35 +943,35 @@ input[type="tel"]{
     margin-right: -36px;
     padding-top: 20px;
 }
-.content__reviews__admin strong{
+.reviews__admin strong{
     display: block;
 }
 /* --------------- /reviews --------------- */
 
 /* --------------- contacts --------------- */
-.content__contacts{
+.contacts{
     font-family: "PT Sans","sans-serif";
     font-style:normal;
     margin-bottom: 26px;
     margin-top: -4px;
 }
-.content__contacts span{
+.contacts span{
     display: block;
     font-size: 14px;
     color: #432100;
     margin-bottom: 4px;
 }
-.content__contacts strong{
+.contacts strong{
     display: block;
     font-size: 18px;
     margin-bottom: 22px;
 }
-.content__contacts div strong{
+.contacts div strong{
     display: inline-block;
     font-size: 18px;
     margin-top: 2px;
 }
-.content__contacts div span{
+.contacts div span{
     margin-bottom: -5px;
 }
 /* --------------- /contacts --------------- */
