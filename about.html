@@ -20,9 +20,9 @@
     <!-- site__header -->
     <header class="site__header">
         <!-- logo -->
-        <h1 class="logo">
-            <img src="img/logo.png" width="" height="" alt="">
-        </h1>
+        <a href="/" class="logo">
+            <img src="img/logo.png" alt="Фатихова Людмила Михайловна">
+        </a>
         <!-- /logo -->
 
         <!-- head-info -->
@@ -56,7 +56,7 @@
         <!-- head-menu -->
         <nav class="head-menu">
             <ul>
-                <li ><a href="#">Главная</a></li>
+                <li><a href="#">Главная</a></li>
                 <li><a href="#">Услуги</a></li>
                 <li><a href="#">Отзывы</a></li>
                 <li class="active"><a href="#">О компании</a></li>
@@ -70,8 +70,8 @@
 
     <!-- site__content -->
     <div class="site__content">
-        <!-- aside -->
-        <aside class="services">
+        <!-- navigation-services -->
+        <aside class="navigation-services">
             <h2>Услуги</h2>
             <a href="#">Юридическим лицам</a>
             <a href="#">Гражданам</a>
@@ -80,7 +80,7 @@
             <a href="#">Выезд нотариуса на дом, в офис</a>
             <a href="#">Записаться на прием</a>
         </aside>
-        <!-- /aside -->
+        <!-- /navigation-services -->
 
         <!--content-->
         <div class="content">
@@ -99,68 +99,67 @@
                 мы разработали удобную систему онлайн заявки. Для того чтобы получить необходимый документ, необходимо
                 выполнить ряд действий:</p>
 
-
+            <!--list-strong-->
             <ol class="list-strong">
-                <li>Заполнить форму заказа звонка</li>
+                <li>Заполнить форму заказа звонка
 
-                <!-- reviews__leave-feedback -->
-                <form class="reviews__leave-feedback reviews-about">
-                    <span class="form-title about-title">Заказать звонок нотариуса</span>
+                    <!--callback-->
+                    <form class="callback">
 
-                    <div class="textbox">
-                        <label for="name">Ваше имя</label>
-                        <input id="name" placeholder="" class="input-textbox" required />
-                    </div>
+                        <span class="callback-title">Заказать звонок нотариуса</span>
 
-                    <div class="textbox email_textbox contact email_contact">
-                        <label for="phone">Телефон</label>
-                        <input id=phone name="phone" placeholder="+7 ( .  .  . ) .  .  . – .  . – .  . " class="email_input-textbox" type="tel" required />
-                    </div>
-                    <input name="submit" class="button button_ok" type="submit" value="OK" />
-                </form>
-                <!-- /reviews__leave-feedback -->
+                        <div class="callback-name">
+                            <label for="name">Ваше имя</label>
+                            <input id="name" placeholder="" class="input-name" required />
+                        </div>
 
+                        <div class=" callback-name callback-email">
+                            <label for="phone">Телефон</label>
+                            <input id="phone" placeholder="+7 ( ___ ) ___ - __ - __ " class="input-phone" type="tel" required />
+                        </div>
+
+                        <input name="submit" class="button-ok" type="submit" value="OK" />
+
+                    </form>
+                    <!--/callback-->
+
+                </li>
                 <li>Дождаться звонка специалиста нотариальной конторы и договориться о времени приезда.</li>
                 <li>Приехать к нотариусу в Уфе (по адресу Уфимское шоссе 1/1) и оплатить услуги.</li>
                 <li>Получить документ без очередей и томительного ожидания.</li>
             </ol>
+            <!--/list-strong-->
 
-            <!--supports-->
-            <div class="supports">
+            <h3>Какие нотариальные услуги оказывает нотариус Фатихова Л. М.</h3>
+            <p>Частный нотариус Хомячук А.В., также как и другие нотариусы г.Уфы, оказывает полный перечень
+                услуг для физических и юридических лиц.</p>
 
-                <h4>Какие нотариальные услуги оказывает нотариус Фатихова Л. М.</h4>
-                <p>Частный нотариус Хомячук А.В., также как и другие нотариусы г.Уфы, оказывает полный перечень
-                    услуг для физических и юридических лиц.</p>
-
-                <h5>Для юридических лиц:</h5>
-                <ul>
-                    <li>составления заявления для налоговой службы;</li>
-                    <li>удостоверение доверенностей;</li>
-                    <li>подтверждение подлинности подписей на заявлениях и банковских картах;</li>
-                    <li>залог и продажа долей в ООО.</li>
-                </ul>
-                <h5>Доверенности:</h5>
-                <ul>
-                    <li>генеральные;</li>
-                    <li>на транспортное средство;</li>
-                    <li>судебные;</li>
-                    <li>для сбора документации;</li>
-                    <li>прочие.</li>
-                </ul>
-                <h5>Семейные отношения:</h5>
-                <ul>
-                    <li>брачные договоры;</li>
-                    <li>различные соглашения (в том числе алиментные, о воспитании детей, о разделе имущества);</li>
-                    <li>сзаявления об отсутствии брака.</li>
-                </ul>
-                <h5>Сделки с недвижимостью:</h5>
-                <ul>
-                    <li>передача объектов в безвозмездное пользование;</li>
-                    <li>договоры об отчуждении.</li>
-                </ul>
-
-            </div>
-            <!--/supports-->
+            <strong>Для юридических лиц:</strong>
+            <ul>
+                <li>составления заявления для налоговой службы;</li>
+                <li>удостоверение доверенностей;</li>
+                <li>подтверждение подлинности подписей на заявлениях и банковских картах;</li>
+                <li>залог и продажа долей в ООО.</li>
+            </ul>
+            <strong>Доверенности:</strong>
+            <ul>
+                <li>генеральные;</li>
+                <li>на транспортное средство;</li>
+                <li>судебные;</li>
+                <li>для сбора документации;</li>
+                <li>прочие.</li>
+            </ul>
+            <strong>Семейные отношения:</strong>
+            <ul>
+                <li>брачные договоры;</li>
+                <li>различные соглашения (в том числе алиментные, о воспитании детей, о разделе имущества);</li>
+                <li>сзаявления об отсутствии брака.</li>
+            </ul>
+            <strong>Сделки с недвижимостью:</strong>
+            <ul>
+                <li>передача объектов в безвозмездное пользование;</li>
+                <li>договоры об отчуждении.</li>
+            </ul>
 
             <p>Другие нотариальные действия.</p>
             <p>Если по состоянию здоровья вы не можете лично приехать в нотариальную контору, можно заказать вызов
@@ -180,7 +179,7 @@
             <!-- site__footer-info -->
             <div class="site__footer-info">
                 <div>© 2015.</div>
-                <div>Нотариус Фатихова Людмила Михайловна.</div>
+                <div>Нотариус Фатихова Людмила Михайловна.</div>
                 <!-- phone -->
                 <div class="site__footer-phone">Тел. <a href="tel:3472222222">(347) 222-22-22</a>.</div>
                 <!-- /phone -->
@@ -189,12 +188,12 @@
             <!-- /site__footer-info -->
             <!-- site__footer-copyright -->
             <div class="site__footer-copyright">
-                Разработка сайта —«<a href="#">Экспресс лаб</a>»
+                Разработка сайта — «<a href="#">Экспресс лаб</a>»
             </div>
             <!-- site__footer-copyright -->
-            <a href="#">
+            <div class="site__footer-logo">
                 <img src="img/logo.png" alt="logo"/>
-            </a>
+            </div>
         </div>
         <!-- /site__footer-layout -->
     </footer>
@@ -210,4 +209,5 @@
 
 </body>
 </html>
+
 

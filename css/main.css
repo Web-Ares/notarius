@@ -208,15 +208,7 @@ textarea .placeholder {
     margin-bottom: 10px;
 }
 
-.content h4{
-    font-size: 18px;
-    font-family: 'Georgia', sans-serif;
-    color: #432100;
-    font-weight: normal;
-    margin-bottom: 12px;
-}
-
-.content h5{
+.content strong,b{
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 12px;
@@ -255,6 +247,7 @@ textarea .placeholder {
 
 .content ul{
     padding-left: 16px;
+    margin-bottom: 11px;
 }
 .content .client-list{
     margin-bottom: 10px;
@@ -323,6 +316,99 @@ textarea .placeholder {
     margin-bottom: 9px;
 }
 /* --------------- /content --------------- */
+
+/* --------------- callback --------------- */
+.callback{
+    font-family: "Georgia","sans-serif";
+    background-color: #ede9e0;
+    padding-top: 9px;
+    padding-bottom: 1px;
+    margin-top: 13px;
+    border-radius: 3px;
+    width: 770px;
+    height: 85px;
+    position: relative;
+    margin-bottom: 18px;
+    margin-left: -13px;
+    font-weight: normal;
+}
+.callback:after{
+    content: "";
+    position: absolute;
+    width: 770px;
+    height: 16px;
+    bottom: -8px;
+    background: url("../img/table-line.png");
+}
+.callback span{
+    color: #432100;
+}
+.callback-title{
+    display: inline-block;
+    width: 220px;
+    height: 62px;
+    font-size: 24px;
+    margin-left: 15px;
+    margin-right: -36px;
+    padding-top: 0px;
+    font-weight: normal;
+    vertical-align: top;
+    line-height: 29px;
+}
+.callback-name{
+    display: inline-block;
+    height: 62px;
+    width: 210px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 2px 7px 7px 7px;
+    background: #f6f4ef;
+    margin-left: 26px;
+    border: none;
+    vertical-align: top;
+}
+.callback-email{
+    width: 226px;
+    margin-left: 11px;
+}
+.callback .button-ok{
+    height: 63px;
+    width: 62px;
+    border-radius: 3px;
+    border: rgba(0,0,0,.3) 0px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #877d73;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 24px;
+    transition: background .4s;
+    cursor: pointer;
+    margin-left: 13px;
+    display: inline-block;
+}
+
+.callback .button-ok:hover{
+    background:rgba(0,0,0,.3);
+}
+.callback .input-name{
+    width: 100%;
+    height: 33px;
+    background: #f6f4ef;
+    border: none;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -5px;
+}
+.callback .input-phone{
+    width: 100%;
+    background: #f6f4ef;
+    border: none;
+}
+/* --------------- /callback --------------- */
 
 /* --------------- head-info --------------- */
 .head-info > div,

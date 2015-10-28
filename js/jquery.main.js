@@ -13,7 +13,7 @@
         $('.swiper-container').each(function () {
             Slider($(this));
         });
-        $('input[name=phone]').each(function () {
+        $('input[id=phone]').each(function () {
             Mask($(this));
         });
     } );
