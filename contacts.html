@@ -24,15 +24,11 @@
         <!-- head-info -->
         <div class="head-info">
             <!-- head-info__address -->
-            <div class="head-info__address">
-                <address>
-                    <a target="_blank" href="https://www.google.com/maps/place/ул.+Советская,+22,+Уфа,+Респ.+Башкортостан,+Росія,+450077">
-                        <span>г. Уфа,</span>
-                        <span><strong>ул. Советская, 25</strong></span>
-                    </a>
-                </address>
+            <address class="head-info__address">
+                <span>г. Уфа,</span>
+                <span><strong>ул. Советская, 25</strong></span>
                 <a href="#">Схема проезда</a>
-            </div>
+            </address>
             <!-- /head-info__address -->
             <!-- head-info__contacts -->
             <div class="head-info__contacts">
@@ -91,26 +87,37 @@
 
         <!--content-->
         <div class="content">
+
             <h1>Контакты</h1>
 
             <!--contacts-->
-            <address class="contacts">
-                <span>Адрес:</span>
-                <strong>г. Уфа, ул. Советская, 25</strong>
-                <span>Телефон:</span>
-                <strong>8 (347) 222-22-22</strong>
-                <span>Электронная почта:</span>
-                <a href="#"><strong>mail@notarius.ru</strong></a>
-                <div>
-                    <span>График работы нотариуса</span>
-                    <strong>пн-пт: 9<sup>00</sup>–20<sup>00</sup></strong> без перерыва, <strong>сб, вс: выходной</strong>
-                </div>
-            </address>
+            <dl class="contacts">
+                <dt>Адрес:</dt>
+                    <dd><strong>г. Уфа, ул. Советская, 25</strong></dd>
+                <dt>Телефон:</dt>
+                    <dd><strong>8 (347) 222-22-22</strong></dd>
+                <dt>Электронная почта:</dt>
+                    <dd><a href="#"><strong>mail@notarius.ru</strong></a></dd>
+                <dt>График работы нотариуса</dt>
+                    <dd><strong>пн-пт: 9<sup>00</sup>–20<sup>00</sup></strong> без перерыва, <strong>сб, вс: выходной</strong></dd>
+            </dl>
             <!--/contacts-->
 
-            <!--id=map-->
-            <div id="map"></div>
-            <!--/id=map-->
+            <!-- map -->
+            <div class="map">
+
+                <!-- map__wrap -->
+                <div class="map__wrap" id="map"></div>
+                <!-- /map__wrap -->
+
+                <!-- map__item-wrap -->
+                <div class="map__item-wrap">
+                    <span class="map__item" data-coord="54.7231345, 55.9456406"><a href="#"></a></span>
+                </div>
+                <!-- /map__item-wrap -->
+
+            </div>
+            <!-- /map -->
 
         </div>
         <!--/site__content-wrap-->
@@ -129,7 +136,7 @@
                 <!-- phone -->
                 <div class="site__footer-phone">Тел. <a href="tel:3472222222">(347) 222-22-22</a>.</div>
                 <!-- /phone -->
-                <address><a target="_blank"  href="https://www.google.com/maps/place/ул.+Советская,+22,+Уфа,+Респ.+Башкортостан,+Росія,+450077">г. Уфа, ул. Советская, 22.</a></address>
+                <address>г. Уфа, ул. Советская, 22.</address>
             </div>
             <!-- /site__footer-info -->
             <!-- site__footer-copyright -->
@@ -137,8 +144,8 @@
                 Разработка сайта — «<a href="#">Экспресс лаб</a>»
             </div>
             <!-- site__footer-copyright -->
-            <a href="#" class="site__footer-logo">
-                <img src="img/logo.png" alt="Нотариус Фатихова Людмила Михайловна"/>
+            <a href="#"  class="site__footer-logo">
+                <img src="img/logo.png" alt="logo"/>
             </a>
         </div>
         <!-- /site__footer-layout -->

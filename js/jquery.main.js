@@ -1,15 +1,25 @@
 ( function(){
     $( function(){
-        $('#map').each(function () {
+        if ($('.map').length) {
+
             var myMap;
-            ymaps.ready(init); // Ожидание загрузки API с сервера Яндекса
+
             function init () {
-                myMap = new ymaps.Map("map", {
-                    center: [54.7231404, 55.9456225], // Координаты центра карты
-                    zoom: 17 // Zoom
+                myMap = new ymaps.Map('map', {
+                    center: $('.map__item').eq(0).attr('data-coord').split(', '),
+                    zoom: 12
                 });
+
+                myMap.controls
+                    .add('zoomControl', { left: 5, top: 5 })
+                    .add('typeSelector')
+                    .add('mapTools', { left: 35, top: 5 });
+
             }
-        });
+
+            ymaps.ready(init);
+        }
+
         $('.swiper-container').each(function () {
             Slider($(this));
         });
