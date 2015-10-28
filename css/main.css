@@ -150,6 +150,10 @@ textarea .placeholder {
     font-style: normal;
     text-align: left;
 }
+.site__footer-info a{
+    color: #432100;
+    cursor: default;
+}
 .site__footer-info address{
     font-style: normal;
 }
@@ -466,17 +470,24 @@ textarea .placeholder {
     top: 2px;
     font-size: 21px;
 }
-.head-info__address{
+.head-info .head-info__address{
     right: 516px;
     font-size: 16px;
     font-style: normal;
     line-height: 19px;
+}
+.head-info__address address{
+    font-style: normal;
+}
+.head-info__address address a{
+    cursor: default;
 }
 .head-info__address > a{
     margin-top: 3px;
     font-size: 14px;
     color: #fc7c00;
     text-decoration: underline;
+    cursor: default;
 }
 .head-info .head-info__contacts{
     right: 254px;
@@ -501,7 +512,7 @@ textarea .placeholder {
 
 /* --------------- logo --------------- */
 .logo {
-    display: block;
+    display: inline-block;
     margin-left: 19px;
     margin-bottom: 16px;
 }
