@@ -785,7 +785,6 @@ textarea .placeholder {
 }
 .news-list__content p{
     line-height: 17px;
-    font-family: "PT Sans","sans-serif";
 }
 /* --------------- /news-list --------------- */
 
@@ -806,7 +805,6 @@ textarea .placeholder {
     margin-bottom: 26px;
 }
 .news__content p{
-    font-family: "PT Sans","sans-serif";
     letter-spacing: 0.15px;
     margin-bottom: 7px;
     line-height: 17px;
@@ -815,7 +813,6 @@ textarea .placeholder {
 
 /* --------------- reviews --------------- */
 .reviews{
-    font-family: 'PT Sans', sans-serif;
     margin-top: -10px;
 }
 .reviews__user{
@@ -865,7 +862,6 @@ textarea .placeholder {
     width: 210px;
     border-radius: 3px;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     padding: 5px 7px 7px 7px;
     background: #f6f4ef;
@@ -880,7 +876,6 @@ textarea .placeholder {
     height: 62px;
     border-radius: 3px;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     padding: 5px 7px 7px 7px;
     background: #f6f4ef;
@@ -967,7 +962,7 @@ textarea .placeholder {
 input[type="tel"]{
     line-height: 32px;
     color: #605447;
-    font: 24px 'PT Sans', sans-serif;
+    font-size: 24px;
     letter-spacing: 1.4px;
     word-spacing: -5px;
 }
@@ -975,7 +970,6 @@ input[type="tel"]{
 
 /* --------------- contacts --------------- */
 .contacts{
-    font-family: "PT Sans","sans-serif";
     font-style:normal;
     margin-bottom: 37px;
     margin-top: -4px;
