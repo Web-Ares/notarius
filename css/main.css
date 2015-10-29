@@ -70,13 +70,13 @@ textarea:-moz-placeholder {
     font: 14px 'PT Sans', sans-serif;
     letter-spacing:0;
     word-spacing: 0;
-   }
+}
 textarea .placeholder {
     color: #605447;
     font: 14px 'PT Sans', sans-serif;
     letter-spacing:0;
     word-spacing: 0;
-   }
+}
 /* --------------- /placeholder --------------- */
 
 /* --------------- site --------------- */
@@ -146,7 +146,7 @@ textarea .placeholder {
     position: absolute;
     top: 15px;
     left: 20px;
-    width: 150px;
+    width: 155px;
     font-style: normal;
     text-align: left;
 }
@@ -233,13 +233,11 @@ textarea .placeholder {
     font-family: 'PT Sans', sans-serif;
     margin-bottom: 10px;
 }
-
 .content strong,b{
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 6px;
 }
-
 .content ol{
     counter-reset: li;
     list-style: none;
@@ -252,7 +250,6 @@ textarea .placeholder {
     line-height: 25px;
     margin-top: 2px;
 }
-
 .content  .list-strong li .callback{
     margin-left: -13px;
 }
@@ -270,7 +267,6 @@ textarea .placeholder {
 .content ol li li:before{
     margin-right: 7px;
 }
-
 .content ul{
     padding-left: 16px;
     margin-bottom: 11px;
@@ -278,8 +274,6 @@ textarea .placeholder {
 .content .client-list{
     margin-bottom: 10px;
 }
-
-
 .content ul li:before{
     content: "- ";
 }
@@ -297,15 +291,12 @@ textarea .placeholder {
     width: 181px;
     vertical-align: middle;
     padding: 4px 12px;
-
 }
-
 .content table tr:last-child{
     border-bottom: 1px solid #605447;
 }
 .content table tr:first-child{
     border-top: 1px solid #f6f4ef;
-
 }
 .content table td:first-child{
     width: 261px;
@@ -320,7 +311,6 @@ textarea .placeholder {
     padding-bottom: 9px;
     border-top: 3px solid #f6f4ef;
 }
-
 .content table td{
     line-height: 15px;
     font-size: 12px;
@@ -329,12 +319,10 @@ textarea .placeholder {
     line-height: 15px;
     font-size: 12px;
     font-weight: normal;
-
 }
 .content table tr:last-child{
     border-bottom: 1px solid #605447;
 }
-
 .content table{
     font-family: 'PT Sans', sans-serif;
 }
@@ -385,7 +373,7 @@ textarea .placeholder {
     font-size: 24px;
     margin-left: 15px;
     margin-right: -36px;
-    padding-top: 0px;
+    padding-top: 0;
     font-weight: normal;
     vertical-align: top;
     line-height: 29px;
@@ -418,12 +406,11 @@ textarea .placeholder {
     width: 226px;
     margin-left: 11px;
 }
-
 .callback__button{
     height: 63px;
     width: 62px;
     border-radius: 3px;
-    border: rgba(0,0,0,.3) 0px solid;
+    border: rgba(0,0,0,.3) 0 solid;
     box-sizing: border-box;
     padding: 10px;
     background: #877d73;
@@ -435,7 +422,6 @@ textarea .placeholder {
     margin-left: 13px;
     display: inline-block;
 }
-
 .callback__button:hover{
     background:rgba(0,0,0,.3);
 }
@@ -566,45 +552,24 @@ textarea .placeholder {
 }
 .head-menu li a{
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
     right: 0;
     bottom: 0;
-    display: block;
-    height: 50px;
-    padding: 14px 10px 0;
+    height: 52px;
+    padding: 15px 10px 0;
     font-size: 16px;
     color: #fff;
-    transition: background-color .3s ease;
-    -webkit-transition: background-color .3s ease;
+    transition: background .3s ease;
+    -webkit-transition: background .3s ease;
 }
 .head-menu a:first-child{
     border-left: none;
 }
-.email_contact {
-    width: 227px;
-    padding: 7px 5px;
-}
-.contact{
-    display: inline-block;
-}
-input[type="tel"]{
-    line-height: 32px;
-    color: #605447;
-    font: 24px 'PT Sans', sans-serif;
-    letter-spacing: 1.4px;
-    word-spacing: -5px;
-}
-
 .head-menu a:first-child{
     border-left: none;
 }
 .head-menu a:hover{
-    background-color: rgba(255,255,255,.2);
-}
-.head-menu .active a{
-    top: -1px;
-    height: 52px;
     background: url("../img/menu-active.jpg") no-repeat center/100% 100% #8b7158;
 }
 /* --------------- /head-menu --------------- */
@@ -761,6 +726,9 @@ input[type="tel"]{
     color: #fc7c00;
     text-decoration: underline;
 }
+.last-news__title a:hover{
+    text-decoration: none;
+}
 .last-news__item{
     float: left;
     width: 25%;
@@ -811,7 +779,6 @@ input[type="tel"]{
     font: normal 24px 'Georgia', serif;
     margin-bottom: 6px;
     letter-spacing: 0.1px;
-
 }
 .news-list a img{
     float: left;
@@ -996,6 +963,20 @@ input[type="tel"]{
 }
 .reviews__admin strong{
     display: block;
+}
+.email_contact {
+    width: 227px;
+    padding: 7px 5px;
+}
+.contact{
+    display: inline-block;
+}
+input[type="tel"]{
+    line-height: 32px;
+    color: #605447;
+    font: 24px 'PT Sans', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -5px;
 }
 /* --------------- /reviews --------------- */
 
