@@ -297,13 +297,14 @@ textarea .placeholder {
     width: 181px;
     vertical-align: middle;
     padding: 4px 12px;
+
 }
 
 .content table tr:last-child{
     border-bottom: 1px solid #605447;
 }
 .content table tr:first-child{
-    border-top: 1px solid #605447;
+    border-top: 1px solid #f6f4ef;
 
 }
 .content table td:first-child{
@@ -315,6 +316,11 @@ textarea .placeholder {
 .content table tr:nth-child(odd){
     background-color: #e7e2d6;
 }
+.content table tr:nth-child(odd) td, .content table tr:nth-child(odd) th{
+    padding-bottom: 9px;
+    border-top: 3px solid #f6f4ef;
+}
+
 .content table td{
     line-height: 15px;
     font-size: 12px;
