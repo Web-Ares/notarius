@@ -436,6 +436,7 @@ textarea .placeholder {
 .callback .input-phone{
     width: 100%;
     background: #f6f4ef;
+    font: 24px 'PT Sans', sans-serif;
     border: none;
     box-shadow: none;
 }
