@@ -41,19 +41,19 @@
 /* --------------- placeholder --------------- */
 ::-webkit-input-placeholder {
     color: #605447;
-    font: 24px 'PT Sans', sans-serif;
+    font: 22px 'PT Sans', sans-serif;
     letter-spacing: 1.4px;
     word-spacing: -5px;
 }
 :-moz-placeholder {
     color: #605447;
-    font: 24px 'PT Sans', sans-serif;
+    font: 22px 'PT Sans', sans-serif;
     letter-spacing: 1.4px;
     word-spacing: -5px;
 }
 .placeholder {
     color: #605447;
-    font: 24px 'PT Sans', sans-serif;
+    font: 22px 'PT Sans', sans-serif;
     letter-spacing: 1.4px;
     word-spacing: -5px;
 }
@@ -436,7 +436,7 @@ textarea .placeholder {
 .callback .input-phone{
     width: 100%;
     background: #f6f4ef;
-    font: 24px 'PT Sans', sans-serif;
+    font: 22px 'PT Sans', sans-serif;
     border: none;
     box-shadow: none;
 }
