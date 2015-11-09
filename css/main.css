@@ -211,7 +211,7 @@ textarea .placeholder {
 .content h1{
     font-size: 38px;
     color: #f27800;
-    line-height: 25px;
+    line-height: 29px;
     font-weight: normal;
     margin-bottom: 36px;
     font-family: 'Georgia', sans-serif;
@@ -601,6 +601,7 @@ textarea .placeholder {
     font-size: 14px;
     color: #432100;
     text-decoration: underline;
+    margin-right: 17px;
 }
 .breadcrumbs a:after{
     content: '>';
@@ -608,7 +609,6 @@ textarea .placeholder {
     right: -11px;
 }
 .breadcrumbs span{
-    padding-left: 17px;
     color: #fc7c00;
 }
 /* --------------- /breadcrumbs --------------- */
