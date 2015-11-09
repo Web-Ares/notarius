@@ -1098,6 +1098,7 @@ input[type="tel"]{
 }
 .callback-popup .callback__button{
     display: block;
+    width: 180px;
     margin: 0 auto;
 }
 /* ------------- /callback-popup -------------- */
