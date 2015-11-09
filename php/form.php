@@ -3,7 +3,7 @@
     $json_data = str_replace("\n",'',$json_data);
 
     $name = $_POST['name'];
-    $tel = $_POST['tel'];
+    $tel = $_POST['phone'];
 
 
     $headers  = "Content-type: text/html; charset=utf-8 \r\n";
